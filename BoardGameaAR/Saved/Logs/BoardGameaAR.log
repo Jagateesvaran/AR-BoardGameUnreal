@@ -3716,3 +3716,45 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.28-13.33.43:239][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.05.28-13.33.43:243][891]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
 [2020.05.28-13.33.43:401][898]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.05.28-15.01.22:232][724]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.05.28-15.01.24:973][724]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMapB43158814F3B8F86CB92528128058906.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.05.28-15.01.25:589][724]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMap_BuiltData1B826C1F487B175EA29CA7826502DE38.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.05.28-15.01.25:685][724]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.28-15.01.25:685][724]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap
+[2020.05.28-15.01.25:685][724]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.HandheldARBlankMap_BuiltData
+[2020.05.28-15.01.26:476][764]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2020.05.28-15.01.26:706][764]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMapD7307DC046D841C6451032A8B43D14D4.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.05.28-15.01.26:743][764]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMap_BuiltDataAA6B964A4BE5DCA8B671E7B77DC5E89E.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.05.28-15.01.26:761][764]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.28-15.01.26:761][764]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap
+[2020.05.28-15.01.26:761][764]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.HandheldARBlankMap_BuiltData
+[2020.05.28-15.01.27:428][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.05.28-15.01.28:566][792]LogSlate: Window 'Save Content' being destroyed
+[2020.05.28-15.01.28:729][792]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/BP_AI_PlayerE5DE63B943ECCA6CED3C6280EC5FBFA7.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/BP_AI_Player.uasset'
+[2020.05.28-15.01.29:048][792]LogSlate: Window 'BoardGameaAR - Unreal Editor' being destroyed
+[2020.05.28-15.01.29:113][792]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.28-15.01.30:350][792]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.30:350][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.28-15.01.30:580][792]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.30:580][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.28-15.01.32:687][792]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.32:688][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.28-15.01.34:025][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.05.28-15.01.34:025][792]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.34:025][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.28-15.01.40:588][792]AssetCheck: New page: Asset Save: BP_AI_Player
+[2020.05.28-15.01.40:588][792]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/BP_AI_Player.BP_AI_Player
+[2020.05.28-15.01.40:699][793]Cmd: QUIT_EDITOR
+[2020.05.28-15.01.40:719][793]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.28-15.01.41:170][793]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.28-15.01.41:226][793]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.28-15.01.42:671][793]LogExit: Preparing to exit.
+[2020.05.28-15.01.46:156][793]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.46:157][793]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.46:158][793]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.46:160][793]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.46:161][793]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.46:986][793]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.28-15.01.48:017][793]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.28-15.01.48:017][793]LogExit: Editor shut down
+[2020.05.28-15.01.48:078][793]LogExit: Transaction tracking system shut down
