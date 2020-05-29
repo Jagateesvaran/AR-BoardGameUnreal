@@ -3024,3 +3024,334 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.29-07.57.49:587][427]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.29-07.57.49:588][427]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap
 [2020.05.29-07.57.49:588][427]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.HandheldARBlankMap_BuiltData
+[2020.05.29-07.59.02:041][924]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor6)
+[2020.05.29-07.59.06:256][174]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor4)
+[2020.05.29-07.59.11:428][483]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor5)
+[2020.05.29-07.59.14:677][677]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor3)
+[2020.05.29-07.59.32:420][729]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceDA9EDDE8492708AE46266E93B83D53BC.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-07.59.32:438][729]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-07.59.32:438][729]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-07.59.32:750][748]BlueprintLog: New page: Compile Dice
+[2020.05.29-07.59.32:995][748]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.05.29-07.59.33:427][769]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceF10C03984E69B0C9901DC2950289FCA8.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-07.59.33:438][769]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-07.59.33:438][769]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-07.59.39:133][108]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Dice8EDBDB2F48B0B60036E5E7BBF3929167.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-07.59.39:146][108]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-07.59.39:146][108]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-07.59.39:516][131]BlueprintLog: New page: Compile Dice
+[2020.05.29-07.59.39:745][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.05.29-07.59.39:987][141]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceA0B3AB7E4CDAB1591C3F538F376CA7F6.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-07.59.40:000][141]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-07.59.40:000][141]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-07.59.41:598][237]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.29-07.59.41:614][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-07.59.41:614][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.29-07.59.41:614][237]PIE: New page: PIE session: HandheldARBlankMap (29 May 2020, 11:59:41 pm)
+[2020.05.29-07.59.41:614][237]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-07.59.41:622][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007468s)
+[2020.05.29-07.59.41:623][237]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.05.29-07.59.41:623][237]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2020.05.29-07.59.41:623][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.008339s)
+[2020.05.29-07.59.41:659][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.29-07.59.41:660][237]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.29-07.59.41:660][237]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.29-07.59.41:660][237]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Is Default: Yes
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: Channel Order:
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.29-07.59.41:685][237]LogAudioMixer: Display: 1: FrontRight
+[2020.05.29-07.59.41:694][237]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.05.29-07.59.41:695][237]LogInit: FAudioDevice initialized.
+[2020.05.29-07.59.41:713][237]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.05.29-07.59.41:717][237]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.05.29-15.59.41
+[2020.05.29-07.59.41:718][237]LogWorld: Bringing up level for play took: 0.002777
+[2020.05.29-07.59.41:718][237]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.05.29-07.59.41:725][237]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.05.29-07.59.41:725][237]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.859
+[2020.05.29-07.59.41:726][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-07.59.42:148][262]LogBlueprintUserMessages: [Dice_2] 1
+[2020.05.29-07.59.47:168][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-07.59.47:168][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-07.59.47:168][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-07.59.47:169][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-07.59.47:169][563]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-07.59.47:170][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-07.59.47:170][563]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.29-07.59.47:170][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-07.59.47:180][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.29-07.59.47:181][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-07.59.47:185][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-07.59.47:219][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-07.59.47:221][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-07.59.47:225][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.05.29-07.59.47:363][570]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.05.29-07.59.52:954][898]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceF7AAF0E0407DEA6A64D557A8EBF4008F.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-07.59.52:967][898]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-07.59.52:967][898]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-07.59.53:571][935]BlueprintLog: New page: Compile Dice
+[2020.05.29-07.59.53:797][935]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.05.29-07.59.54:187][954]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceB5F8FEFB4EC64DB23B3B0DAEDE8B700F.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-07.59.54:202][954]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-07.59.54:202][954]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-08.00.03:529][513]BlueprintLog: New page: Compile Dice
+[2020.05.29-08.00.03:758][513]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.05.29-08.00.04:024][524]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceDAE8131A446342333C7192BEE3B3D0F9.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-08.00.04:036][524]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-08.00.04:036][524]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-08.00.08:359][783]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.29-08.00.08:374][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.08:374][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.29-08.00.08:374][783]PIE: New page: PIE session: HandheldARBlankMap (30 May 2020, 12:00:08 am)
+[2020.05.29-08.00.08:375][783]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.00.08:383][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008038s)
+[2020.05.29-08.00.08:383][783]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.05.29-08.00.08:383][783]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2020.05.29-08.00.08:384][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.008893s)
+[2020.05.29-08.00.08:419][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.29-08.00.08:420][783]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.29-08.00.08:420][783]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.29-08.00.08:420][783]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Is Default: Yes
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: Channel Order:
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.29-08.00.08:443][783]LogAudioMixer: Display: 1: FrontRight
+[2020.05.29-08.00.08:452][783]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.05.29-08.00.08:453][783]LogInit: FAudioDevice initialized.
+[2020.05.29-08.00.08:459][783]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.05.29-08.00.08:461][783]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.05.29-16.00.08
+[2020.05.29-08.00.08:461][783]LogWorld: Bringing up level for play took: 0.001096
+[2020.05.29-08.00.08:461][783]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.05.29-08.00.08:464][783]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.05.29-08.00.08:465][783]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.402
+[2020.05.29-08.00.08:465][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.08:884][808]LogBlueprintUserMessages: [Dice_2] 1
+[2020.05.29-08.00.11:918][990]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.11:918][990]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.11:918][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.11:918][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.00.11:918][990]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.00.11:918][990]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.11:919][990]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.29-08.00.11:919][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.00.11:933][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.29-08.00.11:933][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.11:937][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.00.11:970][990]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.11:972][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.00.11:976][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.05.29-08.00.12:129][997]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.05.29-08.00.21:004][524]BlueprintLog: New page: Compile Dice
+[2020.05.29-08.00.21:228][524]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.05.29-08.00.21:402][530]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceBDC953A946E8F543B1B38FB51572A2B2.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-08.00.21:419][530]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-08.00.21:419][530]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-08.00.22:191][576]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.29-08.00.22:207][576]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.22:207][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.29-08.00.22:207][576]PIE: New page: PIE session: HandheldARBlankMap (30 May 2020, 12:00:22 am)
+[2020.05.29-08.00.22:207][576]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.00.22:216][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008230s)
+[2020.05.29-08.00.22:216][576]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.05.29-08.00.22:216][576]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2020.05.29-08.00.22:216][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.009076s)
+[2020.05.29-08.00.22:253][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.29-08.00.22:254][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.29-08.00.22:254][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.29-08.00.22:255][576]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.29-08.00.22:255][576]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.29-08.00.22:277][576]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.29-08.00.22:277][576]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.05.29-08.00.22:277][576]LogAudioMixer: Display: Is Default: Yes
+[2020.05.29-08.00.22:277][576]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.29-08.00.22:278][576]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.29-08.00.22:278][576]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.29-08.00.22:278][576]LogAudioMixer: Display: Channel Order:
+[2020.05.29-08.00.22:278][576]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.29-08.00.22:278][576]LogAudioMixer: Display: 1: FrontRight
+[2020.05.29-08.00.22:287][576]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.05.29-08.00.22:288][576]LogInit: FAudioDevice initialized.
+[2020.05.29-08.00.22:295][576]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.05.29-08.00.22:296][576]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.05.29-16.00.22
+[2020.05.29-08.00.22:297][576]LogWorld: Bringing up level for play took: 0.001106
+[2020.05.29-08.00.22:297][576]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.05.29-08.00.22:300][576]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.05.29-08.00.22:300][576]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.566
+[2020.05.29-08.00.22:301][576]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.22:721][601]LogBlueprintUserMessages: [Dice_2] 1
+[2020.05.29-08.00.27:923][913]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.27:923][913]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.27:923][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.27:924][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.00.27:924][913]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.00.27:925][913]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.27:925][913]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.29-08.00.27:925][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.00.27:935][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.29-08.00.27:936][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.27:940][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.00.27:973][913]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.27:975][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.00.27:980][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.05.29-08.00.28:130][920]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.05.29-08.00.32:593][183]BlueprintLog: New page: Compile Dice
+[2020.05.29-08.00.32:818][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.05.29-08.00.33:008][190]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceCAA584E94D578FB89C9788AF2588795F.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-08.00.33:025][190]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-08.00.33:025][190]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-08.00.34:065][253]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.29-08.00.34:082][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.34:082][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.29-08.00.34:082][253]PIE: New page: PIE session: HandheldARBlankMap (30 May 2020, 12:00:34 am)
+[2020.05.29-08.00.34:083][253]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.00.34:090][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007302s)
+[2020.05.29-08.00.34:091][253]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.05.29-08.00.34:091][253]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2020.05.29-08.00.34:091][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.008134s)
+[2020.05.29-08.00.34:128][253]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.29-08.00.34:129][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.29-08.00.34:129][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.29-08.00.34:129][253]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.29-08.00.34:130][253]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Is Default: Yes
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: Channel Order:
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.29-08.00.34:152][253]LogAudioMixer: Display: 1: FrontRight
+[2020.05.29-08.00.34:161][253]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.05.29-08.00.34:162][253]LogInit: FAudioDevice initialized.
+[2020.05.29-08.00.34:169][253]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.05.29-08.00.34:171][253]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.05.29-16.00.34
+[2020.05.29-08.00.34:171][253]LogWorld: Bringing up level for play took: 0.001105
+[2020.05.29-08.00.34:171][253]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.05.29-08.00.34:175][253]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.05.29-08.00.34:175][253]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.692
+[2020.05.29-08.00.34:175][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.34:597][278]LogBlueprintUserMessages: [Dice_2] 1
+[2020.05.29-08.00.37:796][470]LogBlueprintUserMessages: [Dice_2] 1
+[2020.05.29-08.00.38:346][503]LogBlueprintUserMessages: [Dice_2] 1
+[2020.05.29-08.00.39:564][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.39:564][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.39:564][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.39:564][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.00.39:564][575]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.00.39:564][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.39:564][575]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.29-08.00.39:565][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.00.39:576][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.29-08.00.39:576][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.00.39:581][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.00.39:614][575]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.00.39:616][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.00.39:620][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.05.29-08.00.39:798][582]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.05.29-08.00.42:362][728]LogRenderer: Reallocating scene render targets to support 1256x692 Format 10 NumSamples 1 (Frame:1).
+[2020.05.29-08.01.04:227][ 27]LogEditorTransaction: Undo Delete current selection
+[2020.05.29-08.01.04:423][ 34]LogEditorTransaction: Undo Delete current selection
+[2020.05.29-08.01.04:775][ 49]LogEditorTransaction: Undo Delete current selection
+[2020.05.29-08.01.48:162][628]BlueprintLog: New page: Compile Dice
+[2020.05.29-08.01.48:408][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.05.29-08.01.48:684][639]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/DiceB937257F46C26D950ADD409B7D4B0C57.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Art/Dice/Dice.uasset'
+[2020.05.29-08.01.48:700][639]AssetCheck: New page: Asset Save: Dice
+[2020.05.29-08.01.48:700][639]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Art/Dice/Dice.Dice
+[2020.05.29-08.01.50:175][727]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.29-08.01.50:193][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.01.50:193][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.29-08.01.50:193][727]PIE: New page: PIE session: HandheldARBlankMap (30 May 2020, 12:01:50 am)
+[2020.05.29-08.01.50:193][727]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.01.50:201][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007335s)
+[2020.05.29-08.01.50:202][727]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.05.29-08.01.50:202][727]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2020.05.29-08.01.50:202][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.008248s)
+[2020.05.29-08.01.50:241][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.29-08.01.50:242][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.29-08.01.50:242][727]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.29-08.01.50:242][727]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Is Default: Yes
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: Channel Order:
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.29-08.01.50:264][727]LogAudioMixer: Display: 1: FrontRight
+[2020.05.29-08.01.50:273][727]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.05.29-08.01.50:274][727]LogInit: FAudioDevice initialized.
+[2020.05.29-08.01.50:282][727]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.05.29-08.01.50:284][727]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.05.29-16.01.50
+[2020.05.29-08.01.50:284][727]LogWorld: Bringing up level for play took: 0.001177
+[2020.05.29-08.01.50:285][727]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.05.29-08.01.50:288][727]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.05.29-08.01.50:289][727]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.577
+[2020.05.29-08.01.50:289][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.01.50:728][752]LogBlueprintUserMessages: [Dice_2] 100
+[2020.05.29-08.01.56:935][125]LogBlueprintUserMessages: [Dice_2] 6
+[2020.05.29-08.01.56:986][128]LogBlueprintUserMessages: [Dice_2] 6
+[2020.05.29-08.01.57:703][171]LogBlueprintUserMessages: [Dice_2] 6
+[2020.05.29-08.01.59:086][254]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.05.29-08.01.59:086][254]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.05.29-08.02.07:145][737]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.02.07:145][737]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.02.07:145][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.02.07:146][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.02.07:146][737]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.05.29-08.02.07:146][737]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.02.07:146][737]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.29-08.02.07:146][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.02.07:163][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.29-08.02.07:164][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.05.29-08.02.07:168][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.29-08.02.07:201][737]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.29-08.02.07:203][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.29-08.02.07:208][737]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.05.29-08.02.07:367][744]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.05.29-08.02.09:827][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board)
+[2020.05.29-08.02.14:168][137]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Player_C (BP_AI_Player)
