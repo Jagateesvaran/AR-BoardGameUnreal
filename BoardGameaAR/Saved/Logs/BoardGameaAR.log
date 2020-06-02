@@ -1,4 +1,4 @@
-﻿Log file open, 06/02/20 18:37:30
+﻿Log file open, 06/02/20 23:38:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: BoardGameaAR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.418450
+LogStats: Stats thread started at 1.203098
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -167,985 +167,546 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2020.06.02-10.37.33:692][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2020.06.02-10.37.33:693][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:709][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.02-10.37.33:709][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.02-10.37.33:720][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:720][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:778][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.02-10.37.33:778][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.02-10.37.33:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.02-10.37.33:787][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.02-10.37.33:792][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.02-10.37.33:889][  0]LogHAL: Display: Platform has ~ 16 GB [17109151744 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.02-10.37.33:889][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.02-10.37.33:889][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.02-10.37.33:889][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.02-10.37.33:890][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.02-10.37.33:902][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.02-10.37.33:902][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.02-10.37.33:902][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
-[2020.06.02-10.37.33:908][  0]LogInit: Computer: DESKTOP-AUUOQ0F
-[2020.06.02-10.37.33:908][  0]LogInit: User: jagat
-[2020.06.02-10.37.33:908][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.06.02-10.37.33:908][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.02-10.37.33:908][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.06.02-10.37.33:909][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.02-10.37.33:909][  0]LogMemory: Process Physical Memory: 106.80 MB used, 106.80 MB peak
-[2020.06.02-10.37.33:909][  0]LogMemory: Process Virtual Memory: 100.47 MB used, 100.47 MB peak
-[2020.06.02-10.37.33:909][  0]LogMemory: Physical Memory: 7170.27 MB used,  9146.29 MB free, 16316.56 MB total
-[2020.06.02-10.37.33:909][  0]LogMemory: Virtual Memory: 5134.41 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2020.06.02-10.37.33:913][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.02-10.37.34:805][  0]LogInit: Using OS detected language (en-US).
-[2020.06.02-10.37.34:805][  0]LogInit: Using OS detected locale (en-SG).
-[2020.06.02-10.37.34:821][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.06.02-10.37.35:304][  0]LogInit: Setting process to per monitor DPI aware
-[2020.06.02-10.37.35:822][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.02-10.37.35:823][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.02-10.37.38:402][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.02-10.37.38:402][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.06.02-10.37.38:402][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.06.02-10.37.38:402][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.02-10.37.38:494][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2020.06.02-10.37.38:494][  0]LogD3D11RHI:       8088/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.06.02-10.37.38:496][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.02-10.37.38:496][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.02-10.37.38:496][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.06.02-10.37.38:531][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.02-10.37.38:532][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.02-10.37.38:532][  0]LogWindows: EnumDisplayDevices:
-[2020.06.02-10.37.38:532][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2020.06.02-10.37.38:533][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2020.06.02-10.37.38:533][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.06.02-10.37.38:534][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.06.02-10.37.38:534][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.06.02-10.37.38:534][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2020.06.02-10.37.38:535][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.06.02-10.37.38:535][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.06.02-10.37.38:535][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2020.06.02-10.37.38:581][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.06.02-10.37.38:581][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.02-10.37.38:855][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.06.02-10.37.39:645][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.06.02-10.37.39:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.06.02-10.37.39:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.06.02-10.37.39:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.06.02-10.37.39:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.06.02-10.37.39:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.06.02-10.37.39:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.06.02-10.37.39:991][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.06.02-10.37.40:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.06.02-10.37.40:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.06.02-10.37.40:092][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.06.02-10.37.40:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.06.02-10.37.40:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.06.02-10.37.40:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.06.02-10.37.40:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.06.02-10.37.40:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.02-10.37.40:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.06.02-10.37.40:287][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.06.02-10.37.40:343][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.06.02-10.37.40:343][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.02-10.37.40:468][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.02-10.37.41:149][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Intermediate/Shaders/WorkingDirectory/21792/).
-[2020.06.02-10.37.41:150][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jagat/AppData/Local/Temp/UnrealShaderWorkingDir/A042E48247945B8247D5B6AD3B2E8E76/'.
-[2020.06.02-10.37.41:150][  0]LogXGEController: Cleaning working directory: C:/Users/jagat/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.06.02-10.37.41:150][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.02-10.37.41:151][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.02-10.37.41:151][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.02-10.37.44:671][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.02-10.37.45:063][  0]LogDerivedDataCache: Loaded boot cache 0.39s 78MB C:/Users/jagat/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.02-10.37.45:063][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jagat/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.06.02-10.37.45:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.02-10.37.45:064][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.02-10.37.45:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.02-10.37.45:064][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.02-10.37.45:120][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.02-10.37.45:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.02-10.37.45:120][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.02-10.37.45:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jagat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.02-10.37.45:121][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.02-10.37.45:121][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.02-10.37.45:183][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.02-10.37.45:356][  0]LogSlate: Using FreeType 2.10.0
-[2020.06.02-10.37.45:420][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.02-10.37.46:577][  0]LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
-[2020.06.02-10.37.50:031][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.02-10.37.51:228][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.02-10.37.51:228][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.02-10.37.51:228][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.02-10.37.51:228][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.02-10.37.51:228][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.02-10.37.51:543][  0]LogNetVersion: BoardGameaAR 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1494395236)
-[2020.06.02-10.38.06:116][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.056888 seconds
-[2020.06.02-10.38.06:145][  0]LogUObjectArray: 47448 objects as part of root set at end of initial load.
-[2020.06.02-10.38.06:145][  0]LogUObjectAllocator: 8286104 out of 0 bytes used by permanent object pool.
-[2020.06.02-10.38.06:145][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.02-10.38.09:982][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.02-10.38.10:007][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.02-10.38.11:068][  0]SourceControl: Source control is disabled
-[2020.06.02-10.38.11:081][  0]SourceControl: Source control is disabled
-[2020.06.02-10.38.11:206][  0]SourceControl: Source control is disabled
-[2020.06.02-10.38.11:240][  0]SourceControl: Source control is disabled
-[2020.06.02-10.38.11:280][  0]SourceControl: Source control is disabled
-[2020.06.02-10.38.12:464][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.02-10.38.12:670][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.02-10.38.12:670][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.02-10.38.13:060][  0]LogOcInput: OculusInput pre-init called
-[2020.06.02-10.38.13:115][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.06.02-10.38.13:115][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.06.02-10.38.13:974][  0]LogEngine: Initializing Engine...
-[2020.06.02-10.38.13:990][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.02-10.38.14:014][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.06.02-10.38.14:816][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.02-10.38.15:220][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.02-10.38.15:364][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.02-10.38.15:364][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.02-10.38.15:371][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.02-10.38.15:371][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: Channel Order:
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.02-10.38.15:436][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.06.02-10.38.15:451][  0]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
-[2020.06.02-10.38.15:508][  0]LogInit: FAudioDevice initialized.
-[2020.06.02-10.38.15:523][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.02-10.38.15:656][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/jagat/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.02-10.38.15:660][  0]LogInit: Texture streaming: Enabled
-[2020.06.02-10.38.15:855][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.02-10.38.15:855][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.06.02-10.38.15:857][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.06.02-10.38.16:109][  0]LogInit: Transaction tracking system initialized
-[2020.06.02-10.38.16:408][  0]BlueprintLog: New page: Editor Load
-[2020.06.02-10.38.17:388][  0]LocalizationService: Localization service is disabled
-[2020.06.02-10.38.19:892][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/' took 0.01s
-[2020.06.02-10.38.19:892][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.06.02-10.38.19:892][  0]LogCook: Display: Mobile HDR setting 1
-[2020.06.02-10.38.22:938][  0]SourceControl: Source control is disabled
-[2020.06.02-10.38.22:987][  0]Cmd: MAP LOAD FILE="../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.02-10.38.23:000][  0]LightingResults: New page: Lighting Build
-[2020.06.02-10.38.23:114][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.38.23:138][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.38.23:145][  0]MapCheck: New page: Map Check
-[2020.06.02-10.38.23:145][  0]LightingResults: New page: Lighting Build
-[2020.06.02-10.38.23:379][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
-[2020.06.02-10.38.24:268][  0]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.06.02-10.38.24:698][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.02-10.38.24:761][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
-[2020.06.02-10.38.24:761][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.02-10.38.24:770][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 8.794ms to complete.
-[2020.06.02-10.38.24:770][  0]LogFileHelpers: Loading map 'HandheldARBlankMap' took 1.810
-[2020.06.02-10.38.28:176][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-10.38.28:184][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-10.38.28:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-10.38.28:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-10.38.28:293][  0]LogCollectionManager: Loaded 0 collections in 0.000879 seconds
-[2020.06.02-10.38.28:427][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Collections/' took 0.00s
-[2020.06.02-10.38.28:427][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/Developers/jagat/Collections/' took 0.00s
-[2020.06.02-10.38.28:427][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/Collections/' took 0.00s
-[2020.06.02-10.38.28:427][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3114 classes and 763 folders.
-[2020.06.02-10.38.28:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.02-10.38.29:043][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.02-10.38.29:169][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2020.06.02-10.38.29:589][  0]LogSlate: Took 0.017128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.06.02-10.38.29:628][  0]LogSlate: Took 0.019672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.06.02-10.38.29:660][  0]LogSlate: Took 0.017610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.06.02-10.38.30:013][  0]LogRenderer: Reallocating scene render targets to support 1256x608 Format 10 NumSamples 1 (Frame:1).
-[2020.06.02-10.38.30:239][  0]LogSlate: Took 0.057500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.02-10.38.30:493][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.06.02-10.38.30:494][  0]LogLoad: (Engine Initialization) Total time: 70.20 seconds
-[2020.06.02-10.38.30:494][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.02-10.38.30:856][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.06.02-10.38.33:071][ 30]LogAssetRegistry: Asset discovery search completed in 46.4958 seconds
-[2020.06.02-10.38.33:089][ 30]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
-[2020.06.02-10.39.09:662][757]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.39.17:772][141]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.39.18:500][176]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.41.48:641][295]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.41.56:641][681]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.44.20:041][525]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.44.25:815][805]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.02-10.47.35:194][785]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Player_C (BP_AI_Player)
-[2020.06.02-10.47.35:950][786]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Player_C (BP_AI_Player)
-[2020.06.02-10.47.37:370][868]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.02-10.47.37:399][868]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HandheldARBP/JagateesStuff/BP_AI_Player.BP_AI_Player
-[2020.06.02-10.47.37:699][868]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/ARCoreUtils.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.06.02-10.47.37:710][868]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/CameraTextureUVParams.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.06.02-10.47.37:914][868]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2020.06.02-10.47.39:746][868]LogSlate: Took 0.031648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.06.02-10.47.40:116][869]LogSlate: Took 0.018032 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.06.02-10.56.12:644][189]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\jagat\Downloads\bbtea_move.fbx)
-[2020.06.02-10.56.12:818][189]LogFbx: Loading FBX Scene from C:\Users\jagat\Downloads\bbtea_move.fbx
-[2020.06.02-10.56.12:896][189]LogFbx: FBX Scene Loaded Succesfully
-[2020.06.02-10.56.16:921][189]LogSlate: Window 'FBX Import Options' being destroyed
-[2020.06.02-10.56.17:043][189]LogFbx: Valid bind pose for Pose (skinCluster1) - bbtea
-[2020.06.02-10.56.17:223][189]LogMaterial: Display: Material /Game/HandheldARBP/JagateesStuff/Everything.Everything needed to have new flag set bUsedWithSkeletalMesh !
-[2020.06.02-10.56.17:230][189]LogMaterial: Display: Missing cached shader map for material Everything, compiling. 
-[2020.06.02-10.56.17:431][189]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
-[2020.06.02-10.56.17:431][189]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
-[2020.06.02-10.56.17:462][189]LogMaterial: Display: Missing cached shader map for material Everything, compiling. 
-[2020.06.02-10.56.17:509][189]LogFbx: Triangulating skeletal mesh bbtea
-[2020.06.02-10.56.17:605][189]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 5
-[2020.06.02-10.56.18:145][189]LogSkeletalMesh: Section 0: 150 vertices, 5 active bones
-[2020.06.02-10.56.18:145][189]LogSkeletalMesh: Section 0: Material=0, 200 triangles
-[2020.06.02-10.56.18:254][189]LogSkeletalMesh: Building Skeletal Mesh bbtea_move...
-[2020.06.02-10.56.18:258][189]LogSkeletalMesh: Section 0: 150 vertices, 5 active bones
-[2020.06.02-10.56.18:258][189]LogSkeletalMesh: Section 0: Material=0, 200 triangles
-[2020.06.02-10.56.18:319][189]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/HandheldARBP/JagateesStuff/bbtea_move.bbtea_move
-[2020.06.02-10.56.18:330][189]LogLinker: Failed to load '/Game/HandheldARBP/JagateesStuff/bbtea_move_Skeleton': Can't find file.
-[2020.06.02-10.56.18:330][189]LogLinker: Failed to load '/Game/HandheldARBP/JagateesStuff/bbtea_move_Skeleton': Can't find file.
-[2020.06.02-10.56.18:338][189]LogLinker: Failed to load '/Game/HandheldARBP/JagateesStuff/bbtea_move_PhysicsAsset': Can't find file.
-[2020.06.02-10.56.18:338][189]LogLinker: Failed to load '/Game/HandheldARBP/JagateesStuff/bbtea_move_PhysicsAsset': Can't find file.
-[2020.06.02-10.56.18:430][189]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
-[2020.06.02-10.56.18:430][189]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.56.18:430][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.56.18:511][189]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.56.18:511][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.56.18:534][189]LogFbx: SortedLinks :(0) joint1
-[2020.06.02-10.56.18:534][189]LogFbx: SortedLinks :(1) joint2
-[2020.06.02-10.56.18:534][189]LogFbx: SortedLinks :(2) joint3
-[2020.06.02-10.56.18:534][189]LogFbx: SortedLinks :(3) joint4
-[2020.06.02-10.56.18:534][189]LogFbx: SortedLinks :(4) joint5
-[2020.06.02-10.56.18:542][189]LogFbx: Parsing AnimStack bbtea_move
-[2020.06.02-10.56.18:543][189]LogLinker: Failed to load '/Game/HandheldARBP/JagateesStuff/bbtea_move_Anim': Can't find file.
-[2020.06.02-10.56.18:543][189]LogLinker: Failed to load '/Game/HandheldARBP/JagateesStuff/bbtea_move_Anim': Can't find file.
-[2020.06.02-10.56.18:580][189]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/HandheldARBP/JagateesStuff/bbtea_move_Anim.bbtea_move_Anim
-[2020.06.02-10.56.18:588][189]LogAnimationCompression: Recompressing (AnimSequence /Game/HandheldARBP/JagateesStuff/bbtea_move_Anim.bbtea_move_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2020.06.02-10.56.21:041][295]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
-[2020.06.02-10.56.21:375][312]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
-[2020.06.02-10.56.21:865][340]Cmd: TRANSACTION UNDO
-[2020.06.02-10.56.21:869][340]LogEditorTransaction: Undo Edit Import Animations
-[2020.06.02-10.56.23:995][439]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
-[2020.06.02-10.56.24:022][440]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2020.06.02-10.56.25:356][516]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
-[2020.06.02-10.56.26:022][556]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2020.06.02-10.56.34:646][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/bbtea_move.bbtea_move' ref from Metadata '/Game/HandheldARBP/JagateesStuff/bbtea_move.PackageMetaData'
-[2020.06.02-10.56.34:715][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_Skeleton.bbtea_move_Skeleton' ref from Metadata '/Game/HandheldARBP/JagateesStuff/bbtea_move_Skeleton.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player:MinusCash.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player:AddCash.K2Node_FunctionEntry_0' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:Cash' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:WayPointArrayThree' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:PathNumber' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:WayPointArrayTwo' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:WayPointArrayOne' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:CurrenPlayerPosition' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:Cube' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:UserConstructionScript' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:AddCash' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C:MinusCash' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.SKEL_BP_AI_Player_C' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:Cash' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:WayPointArrayThree' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:PathNumber' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:WayPointArrayTwo' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:WayPointArrayOne' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:CurrenPlayerPosition' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:Cube' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:AddCash' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:725][ 31]LogMetaData: Removing '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:MinusCash' ref from Metadata '/Game/HandheldARBP/JagateesStuff/BP_AI_Player.PackageMetaData'
-[2020.06.02-10.56.34:951][ 31]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/bbtea_moveF6D1CFD646F05730993E02AE8B8DC51E.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/bbtea_move.uasset'
-[2020.06.02-10.56.34:984][ 31]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/bbtea_move_AnimEC846EF346731817D15945AC25A2159B.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/bbtea_move_Anim.uasset'
-[2020.06.02-10.56.35:004][ 31]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/bbtea_move_PhysicsAssetF412FF354B63399D96D1FDB250784677.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/bbtea_move_PhysicsAsset.uasset'
-[2020.06.02-10.56.35:011][ 31]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/bbtea_move_SkeletonA793662D454551412B7FE2BB5F54921F.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/bbtea_move_Skeleton.uasset'
-[2020.06.02-10.56.35:142][ 31]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/BP_AI_Player1E45886A462CCC900C599CBAE96AA4B2.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.uasset'
-[2020.06.02-10.56.35:637][ 31]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/BP_AI_Player7DAB5C504D267740D945C3ABF149BD27.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/BP_AI_Player.uasset'
-[2020.06.02-10.56.36:336][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
-[2020.06.02-10.56.36:411][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
-[2020.06.02-10.56.36:445][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2020.06.02-10.56.36:475][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2020.06.02-10.56.36:509][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
-[2020.06.02-10.56.36:537][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2020.06.02-10.56.36:719][ 31]AssetCheck: New page: Asset Save: multiple assets
-[2020.06.02-10.56.36:719][ 31]LogContentValidation: Display: Validating SkeletalMesh /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move.bbtea_move
-[2020.06.02-10.56.36:719][ 31]LogContentValidation: Display: Validating AnimSequence /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_Anim.bbtea_move_Anim
-[2020.06.02-10.56.36:719][ 31]LogContentValidation: Display: Validating PhysicsAsset /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_PhysicsAsset.bbtea_move_PhysicsAsset
-[2020.06.02-10.56.36:719][ 31]LogContentValidation: Display: Validating Skeleton /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_Skeleton.bbtea_move_Skeleton
-[2020.06.02-10.56.36:719][ 31]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player
-[2020.06.02-10.56.36:733][ 31]LogContentValidation: Display: Validating ObjectRedirector /Game/HandheldARBP/JagateesStuff/BP_AI_Player.BP_AI_Player_C
-[2020.06.02-10.56.36:733][ 31]LogContentValidation: Display: Validating ObjectRedirector /Game/HandheldARBP/JagateesStuff/BP_AI_Player.Default__BP_AI_Player_C
-[2020.06.02-10.56.36:733][ 31]LogContentValidation: Display: Validating ObjectRedirector /Game/HandheldARBP/JagateesStuff/BP_AI_Player.BP_AI_Player
-[2020.06.02-10.57.40:073][756]LogRenderer: Reallocating scene render targets to support 1256x692 Format 10 NumSamples 1 (Frame:1).
-[2020.06.02-10.57.49:808][323]LogTemp: Repeating last play command: Selected Viewport
-[2020.06.02-10.57.49:835][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-10.57.49:913][323]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.06.02-10.57.49:917][323]LogPlayLevel: [PlayLevel] Compiling BP_AI_Player before play...
-[2020.06.02-10.57.50:596][323]LogPlayLevel: [PlayLevel] Compiling Game_Widget before play...
-[2020.06.02-10.57.50:694][323]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
-[2020.06.02-10.57.50:696][323]LogPlayLevel: PlayLevel: Blueprint regeneration took 782 ms (2 blueprints)
-[2020.06.02-10.57.50:726][323]PIE: New page: PIE session: HandheldARBlankMap (3 Jun 2020, 2:57:50 am)
-[2020.06.02-10.57.50:823][323]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.06.02-10.57.50:824][323]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.06.02-10.57.50:844][323]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-10.57.50:860][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015863s)
-[2020.06.02-10.57.50:905][323]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.06.02-10.57.50:906][323]LogPlayLevel: PIE: World Init took: (0.015561s)
-[2020.06.02-10.57.50:906][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.061509s)
-[2020.06.02-10.57.50:939][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.02-10.57.50:953][323]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.02-10.57.50:953][323]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.02-10.57.50:953][323]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Is Default: Yes
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: Channel Order:
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.02-10.57.50:979][323]LogAudioMixer: Display: 1: FrontRight
-[2020.06.02-10.57.50:988][323]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
-[2020.06.02-10.57.51:007][323]LogInit: FAudioDevice initialized.
-[2020.06.02-10.57.51:079][323]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.06.02-10.57.51:154][323]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.02-18.57.51
-[2020.06.02-10.57.51:270][323]LogWorld: Bringing up level for play took: 0.128698
-[2020.06.02-10.57.51:274][323]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2020.06.02-10.57.51:369][323]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2020.06.02-10.57.51:509][323]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.06.02-10.57.51:511][323]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 1.381
-[2020.06.02-10.57.51:511][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-10.57.52:479][354]LogBlueprintUserMessages: [Dice_2] 100
-[2020.06.02-10.58.02:462][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-10.58.02:462][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-10.58.02:481][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-10.58.02:504][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-10.58.02:504][949]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-10.58.02:505][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-10.58.02:521][949]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.58.02:549][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.58.02:559][949]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.06.02-10.58.02:559][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-10.58.02:565][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.58.02:600][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-10.58.02:614][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-10.58.02:719][949]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
-[2020.06.02-10.58.02:904][956]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2020.06.02-10.58.20:409][995]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (bbtea_move)
-[2020.06.02-10.58.23:331][167]Cmd: DELETE
-[2020.06.02-10.58.23:331][167]Cmd: ACTOR DELETE
-[2020.06.02-10.58.23:577][167]LogEditorActor: Deleted Actor: SkeletalMeshActor
-[2020.06.02-10.58.23:644][167]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
-[2020.06.02-10.58.23:645][167]LogEditorActor: Deleted 1 Actors (0.095 secs)
-[2020.06.02-10.58.42:173][268]BlueprintLog: New page: Compile BP_AI_Player
-[2020.06.02-10.58.42:414][268]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2020.06.02-10.58.51:612][811]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2020.06.02-10.58.58:051][188]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_Anim.bbtea_move_Anim
-[2020.06.02-10.58.58:162][188]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.06.02-10.58.58:667][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.06.02-10.58.58:694][188]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2020.06.02-10.58.58:907][188]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.06.02-10.58.59:728][188]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.06.02-10.59.06:797][594]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move.bbtea_move
-[2020.06.02-10.59.06:813][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.06.02-10.59.06:870][594]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.06.02-10.59.07:237][595]LogRenderer: Reallocating scene render targets to support 1256x884 Format 10 NumSamples 1 (Frame:1).
-[2020.06.02-10.59.10:199][763]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_PhysicsAsset.bbtea_move_PhysicsAsset
-[2020.06.02-10.59.10:253][763]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0002 seconds. Added 7 classes and 3 folders.
-[2020.06.02-10.59.10:260][763]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2020.06.02-10.59.19:037][217]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.59.19:037][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.59.19:746][238]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.59.19:746][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.59.20:156][255]LogSlate: Window 'bbtea_move_Anim' being destroyed
-[2020.06.02-10.59.20:176][255]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.59.20:177][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.59.20:228][255]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.59.20:228][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.59.20:322][255]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-10.59.20:322][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-10.59.29:810][807]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move.bbtea_move
-[2020.06.02-10.59.29:819][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.06.02-10.59.29:878][807]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.06.02-10.59.31:758][891]LogSlate: Window 'bbtea_move' being destroyed
-[2020.06.02-10.59.58:483][454]LogEditorTransaction: Undo Modify Component(s)
-[2020.06.02-10.59.58:584][454]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.06.02-11.00.09:516][ 96]LogEditorTransaction: Undo Remove Components
-[2020.06.02-11.00.09:583][ 96]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.06.02-11.00.15:188][424]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2020.06.02-11.00.26:688][106]BlueprintLog: New page: Compile BP_AI_Player
-[2020.06.02-11.00.27:171][106]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
-[2020.06.02-11.00.27:450][116]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/BP_AI_Player8F15C6CF49AC4D37A73694B48D4D6914.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.uasset'
-[2020.06.02-11.00.27:464][116]AssetCheck: New page: Asset Save: BP_AI_Player
-[2020.06.02-11.00.27:464][116]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player
-[2020.06.02-11.00.30:300][282]LogTemp: Repeating last play command: Selected Viewport
-[2020.06.02-11.00.30:314][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.30:314][282]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.06.02-11.00.30:317][282]LogPlayLevel: [PlayLevel] Compiling Game_Widget before play...
-[2020.06.02-11.00.30:402][282]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
-[2020.06.02-11.00.30:404][282]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
-[2020.06.02-11.00.30:404][282]PIE: New page: PIE session: HandheldARBlankMap (3 Jun 2020, 3:00:30 am)
-[2020.06.02-11.00.30:404][282]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-11.00.30:411][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006710s)
-[2020.06.02-11.00.30:411][282]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.06.02-11.00.30:411][282]LogPlayLevel: PIE: World Init took: (0.000725s)
-[2020.06.02-11.00.30:411][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.007551s)
-[2020.06.02-11.00.30:444][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.02-11.00.30:444][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.02-11.00.30:444][282]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.02-11.00.30:445][282]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.02-11.00.30:445][282]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Is Default: Yes
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: Channel Order:
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.02-11.00.30:469][282]LogAudioMixer: Display: 1: FrontRight
-[2020.06.02-11.00.30:477][282]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
-[2020.06.02-11.00.30:478][282]LogInit: FAudioDevice initialized.
-[2020.06.02-11.00.30:486][282]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.06.02-11.00.30:487][282]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.02-19.00.30
-[2020.06.02-11.00.30:488][282]LogWorld: Bringing up level for play took: 0.001345
-[2020.06.02-11.00.30:488][282]LogOnline: OSS: Creating online subsystem instance for: :Context_18
-[2020.06.02-11.00.30:492][282]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.06.02-11.00.30:493][282]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.363
-[2020.06.02-11.00.30:493][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.31:016][313]LogBlueprintUserMessages: [Dice_2] 100
-[2020.06.02-11.00.37:224][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.37:225][681]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.06.02-11.00.37:246][681]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.06.02-11.00.37:246][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.37:246][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-11.00.37:246][681]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-11.00.37:247][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.37:247][681]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-11.00.37:248][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-11.00.37:259][681]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.06.02-11.00.37:259][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.37:264][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-11.00.37:294][681]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.37:296][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-11.00.37:301][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
-[2020.06.02-11.00.37:456][688]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2020.06.02-11.00.43:629][ 52]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/HandheldARBP/JagateesStuff/Btea/bbtea_move_Anim.bbtea_move_Anim
-[2020.06.02-11.00.43:632][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.06.02-11.00.43:654][ 52]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.06.02-11.00.43:912][ 52]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.06.02-11.00.52:364][553]LogTemp: Repeating last play command: Selected Viewport
-[2020.06.02-11.00.52:378][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.52:378][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.06.02-11.00.52:378][553]PIE: New page: PIE session: HandheldARBlankMap (3 Jun 2020, 3:00:52 am)
-[2020.06.02-11.00.52:378][553]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-11.00.52:385][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006851s)
-[2020.06.02-11.00.52:385][553]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.06.02-11.00.52:386][553]LogPlayLevel: PIE: World Init took: (0.000962s)
-[2020.06.02-11.00.52:386][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.007942s)
-[2020.06.02-11.00.52:419][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.02-11.00.52:421][553]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.02-11.00.52:421][553]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.02-11.00.52:421][553]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Is Default: Yes
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: Channel Order:
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.02-11.00.52:445][553]LogAudioMixer: Display: 1: FrontRight
-[2020.06.02-11.00.52:454][553]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
-[2020.06.02-11.00.52:455][553]LogInit: FAudioDevice initialized.
-[2020.06.02-11.00.52:476][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-11.00.52:477][553]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.06.02-11.00.52:478][553]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.02-19.00.52
-[2020.06.02-11.00.52:479][553]LogWorld: Bringing up level for play took: 0.001532
-[2020.06.02-11.00.52:479][553]LogOnline: OSS: Creating online subsystem instance for: :Context_22
-[2020.06.02-11.00.52:481][553]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.06.02-11.00.52:483][553]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.06.02-11.00.52:485][553]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.354
-[2020.06.02-11.00.52:485][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.52:524][554]LogRenderer: Reallocating scene render targets to support 1280x884 Format 10 NumSamples 1 (Frame:1).
-[2020.06.02-11.00.53:028][584]LogBlueprintUserMessages: [Dice_2] 100
-[2020.06.02-11.00.55:712][745]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.55:713][745]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.55:713][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.55:713][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-11.00.55:713][745]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-11.00.55:728][745]LogSlate: Window 'BoardGameaAR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.06.02-11.00.55:730][745]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.55:731][745]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-11.00.55:731][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-11.00.55:737][745]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.06.02-11.00.55:737][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.00.55:741][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-11.00.55:769][745]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.00.55:776][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2020.06.02-11.00.55:969][752]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2020.06.02-11.00.57:586][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors' of length 0 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player'!
-[2020.06.02-11.00.57:595][844]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
-	BP_AI_Player_C /Engine/Transient.World_2:PersistentLevel.BP_AI_Player_C_1
-	Function /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player:0A0B
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors' of length 0 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player'!
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
-	BP_AI_Player_C /Engine/Transient.World_2:PersistentLevel.BP_AI_Player_C_1
-	Function /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player:0AF9
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player'!
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_1
-	BP_AI_Player_C /Engine/Transient.World_2:PersistentLevel.BP_AI_Player_C_1
-	Function /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player:005D
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player'!
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_1
-	BP_AI_Player_C /Engine/Transient.World_2:PersistentLevel.BP_AI_Player_C_1
-	Function /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player:014B
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_2' of length 0 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player'!
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_4
-	BP_AI_Player_C /Engine/Transient.World_2:PersistentLevel.BP_AI_Player_C_1
-	Function /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player:035A
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_2' of length 0 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player'!
-[2020.06.02-11.00.57:596][844]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item_4
-	BP_AI_Player_C /Engine/Transient.World_2:PersistentLevel.BP_AI_Player_C_1
-	Function /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C:ExecuteUbergraph_BP_AI_Player:0448
-[2020.06.02-11.01.24:227][418]LogMaterial: Display: Material /Game/HandheldARBP/JagateesStuff/Art/Map/colour_Mat.colour_Mat needed to have new flag set bUsedWithSkeletalMesh !
-[2020.06.02-11.01.24:232][418]LogMaterial: Display: Missing cached shader map for material colour_Mat, compiling. 
-[2020.06.02-11.01.24:274][418]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
-[2020.06.02-11.01.24:274][418]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
-[2020.06.02-11.01.27:333][600]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
-[2020.06.02-11.01.27:719][623]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
-[2020.06.02-11.01.29:007][700]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
-[2020.06.02-11.01.29:874][751]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2020.06.02-11.01.30:870][808]LogMaterial: Display: Material /Game/HandheldARBP/JagateesStuff/Art/Map/Everything.Everything needed to have new flag set bUsedWithSkeletalMesh !
-[2020.06.02-11.01.30:875][808]LogMaterial: Display: Missing cached shader map for material Everything, compiling. 
-[2020.06.02-11.01.30:914][809]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
-[2020.06.02-11.01.30:915][809]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
-[2020.06.02-11.01.33:788][980]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
-[2020.06.02-11.01.34:075][997]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
-[2020.06.02-11.01.35:276][ 69]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
-[2020.06.02-11.01.35:604][ 88]BlueprintLog: New page: Compile BP_AI_Player
-[2020.06.02-11.01.35:867][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
-[2020.06.02-11.01.35:969][ 93]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2020.06.02-11.01.38:172][222]LogTemp: Repeating last play command: Selected Viewport
-[2020.06.02-11.01.38:185][222]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.01.38:185][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.06.02-11.01.38:185][222]PIE: New page: PIE session: HandheldARBlankMap (3 Jun 2020, 3:01:38 am)
-[2020.06.02-11.01.38:185][222]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-11.01.38:192][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006571s)
-[2020.06.02-11.01.38:192][222]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.06.02-11.01.38:192][222]LogPlayLevel: PIE: World Init took: (0.000715s)
-[2020.06.02-11.01.38:192][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.007421s)
-[2020.06.02-11.01.38:226][222]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.02-11.01.38:227][222]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.02-11.01.38:227][222]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.02-11.01.38:227][222]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Is Default: Yes
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: Channel Order:
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.02-11.01.38:251][222]LogAudioMixer: Display: 1: FrontRight
-[2020.06.02-11.01.38:260][222]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
-[2020.06.02-11.01.38:261][222]LogInit: FAudioDevice initialized.
-[2020.06.02-11.01.38:269][222]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.06.02-11.01.38:271][222]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.02-19.01.38
-[2020.06.02-11.01.38:271][222]LogWorld: Bringing up level for play took: 0.001237
-[2020.06.02-11.01.38:271][222]LogOnline: OSS: Creating online subsystem instance for: :Context_23
-[2020.06.02-11.01.38:276][222]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.06.02-11.01.38:276][222]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.146
-[2020.06.02-11.01.38:277][222]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.01.38:798][253]LogBlueprintUserMessages: [Dice_2] 100
-[2020.06.02-11.01.44:294][582]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.01.44:294][582]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.01.44:294][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.01.44:295][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-11.01.44:295][582]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.06.02-11.01.44:296][582]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.01.44:296][582]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.06.02-11.01.44:296][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-11.01.44:307][582]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.06.02-11.01.44:307][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.06.02-11.01.44:313][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.02-11.01.44:343][582]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.02-11.01.44:346][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.02-11.01.44:350][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
-[2020.06.02-11.01.44:493][589]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2020.06.02-11.01.50:709][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
-[2020.06.02-11.01.50:952][939]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMap59FEAE24411541C5126633A4D996787B.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
-[2020.06.02-11.01.51:038][939]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMap_BuiltDataF122E7D9470E49E1CF8261BF4817ECDC.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
-[2020.06.02-11.01.51:069][939]AssetCheck: New page: Asset Save: multiple assets
-[2020.06.02-11.01.51:069][939]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap
-[2020.06.02-11.01.51:069][939]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.HandheldARBlankMap_BuiltData
+[2020.06.02-15.38.35:347][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.02-15.38.35:347][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.02-15.38.35:347][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:347][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.06.02-15.38.35:348][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:364][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.02-15.38.35:364][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.02-15.38.35:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:375][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.02-15.38.35:419][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.02-15.38.35:420][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.02-15.38.35:434][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.02-15.38.35:440][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.02-15.38.35:511][  0]LogHAL: Display: Platform has ~ 16 GB [17109151744 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.02-15.38.35:511][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.02-15.38.35:543][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.02-15.38.35:543][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.02-15.38.35:544][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.02-15.38.35:565][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.02-15.38.35:565][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.02-15.38.35:565][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Config/Windows/Engine.ini]
+[2020.06.02-15.38.35:585][  0]LogInit: Computer: DESKTOP-AUUOQ0F
+[2020.06.02-15.38.35:585][  0]LogInit: User: jagat
+[2020.06.02-15.38.35:585][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.06.02-15.38.35:585][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.02-15.38.35:586][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.06.02-15.38.35:586][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.02-15.38.35:586][  0]LogMemory: Process Physical Memory: 106.79 MB used, 106.79 MB peak
+[2020.06.02-15.38.35:586][  0]LogMemory: Process Virtual Memory: 100.24 MB used, 100.24 MB peak
+[2020.06.02-15.38.35:586][  0]LogMemory: Physical Memory: 6212.71 MB used,  10103.84 MB free, 16316.56 MB total
+[2020.06.02-15.38.35:586][  0]LogMemory: Virtual Memory: 5134.41 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.06.02-15.38.35:590][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.02-15.38.36:452][  0]LogInit: Using OS detected language (en-US).
+[2020.06.02-15.38.36:452][  0]LogInit: Using OS detected locale (en-SG).
+[2020.06.02-15.38.36:495][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.02-15.38.37:168][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.02-15.38.37:722][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.02-15.38.37:722][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.02-15.38.43:516][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.02-15.38.43:516][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.02-15.38.43:516][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.02-15.38.43:516][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.02-15.38.43:698][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.06.02-15.38.43:698][  0]LogD3D11RHI:       8088/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.06.02-15.38.43:701][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.02-15.38.43:701][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.02-15.38.43:701][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.02-15.38.43:720][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.02-15.38.43:720][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.02-15.38.43:720][  0]LogWindows: EnumDisplayDevices:
+[2020.06.02-15.38.43:720][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.06.02-15.38.43:720][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.06.02-15.38.43:720][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.06.02-15.38.43:721][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.06.02-15.38.43:721][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.02-15.38.43:721][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.06.02-15.38.43:721][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.06.02-15.38.43:721][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.06.02-15.38.43:721][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.06.02-15.38.44:089][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.02-15.38.44:089][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.02-15.38.44:356][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.02-15.38.46:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.02-15.38.46:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.02-15.38.46:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.02-15.38.46:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.02-15.38.46:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.02-15.38.46:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.02-15.38.46:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.02-15.38.46:528][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.02-15.38.46:560][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.02-15.38.46:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.02-15.38.46:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.02-15.38.46:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.02-15.38.46:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.02-15.38.46:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.02-15.38.46:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.02-15.38.47:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.02-15.38.47:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.02-15.38.47:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.02-15.38.47:217][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.02-15.38.47:390][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.02-15.38.49:129][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Intermediate/Shaders/WorkingDirectory/9956/).
+[2020.06.02-15.38.49:129][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jagat/AppData/Local/Temp/UnrealShaderWorkingDir/29379A214495F18CE91392953A92169A/'.
+[2020.06.02-15.38.49:130][  0]LogXGEController: Cleaning working directory: C:/Users/jagat/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.02-15.38.49:130][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.02-15.38.49:130][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.02-15.38.49:130][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.02-15.38.53:017][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.02-15.38.59:066][  0]LogDerivedDataCache: Loaded boot cache 5.47s 78MB C:/Users/jagat/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.02-15.38.59:066][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jagat/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.02-15.38.59:066][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.02-15.38.59:066][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.02-15.38.59:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.02-15.38.59:067][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.02-15.38.59:174][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.02-15.38.59:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.02-15.38.59:174][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.02-15.38.59:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jagat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.02-15.38.59:176][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.02-15.38.59:176][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.02-15.38.59:238][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.02-15.38.59:303][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.02-15.38.59:441][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.02-15.39.00:731][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+[2020.06.02-15.39.05:330][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.02-15.39.06:665][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.02-15.39.06:665][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.02-15.39.06:665][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.02-15.39.06:665][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.02-15.39.06:665][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.02-15.39.07:022][  0]LogNetVersion: BoardGameaAR 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1494395236)
+[2020.06.02-15.39.21:664][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.142125 seconds
+[2020.06.02-15.39.21:682][  0]LogUObjectArray: 47448 objects as part of root set at end of initial load.
+[2020.06.02-15.39.21:682][  0]LogUObjectAllocator: 8286104 out of 0 bytes used by permanent object pool.
+[2020.06.02-15.39.21:682][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.02-15.39.25:785][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.02-15.39.25:810][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.02-15.39.26:914][  0]SourceControl: Source control is disabled
+[2020.06.02-15.39.26:927][  0]SourceControl: Source control is disabled
+[2020.06.02-15.39.27:034][  0]SourceControl: Source control is disabled
+[2020.06.02-15.39.27:071][  0]SourceControl: Source control is disabled
+[2020.06.02-15.39.27:087][  0]SourceControl: Source control is disabled
+[2020.06.02-15.39.28:368][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.02-15.39.28:550][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.02-15.39.28:550][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.02-15.39.29:030][  0]LogOcInput: OculusInput pre-init called
+[2020.06.02-15.39.29:086][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.02-15.39.29:086][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.02-15.39.30:079][  0]LogEngine: Initializing Engine...
+[2020.06.02-15.39.30:094][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.02-15.39.30:135][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.02-15.39.31:028][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.02-15.39.31:350][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.02-15.39.31:459][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.02-15.39.31:459][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.02-15.39.31:459][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.02-15.39.31:459][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.02-15.39.31:459][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.02-15.39.31:459][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.02-15.39.31:460][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.02-15.39.31:460][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.02-15.39.31:466][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.02-15.39.31:466][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.02-15.39.31:548][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.02-15.39.31:571][  0]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.06.02-15.39.31:592][  0]LogInit: FAudioDevice initialized.
+[2020.06.02-15.39.31:592][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.02-15.39.32:058][  0]LogDerivedDataCache: Saved boot cache 0.46s 78MB C:/Users/jagat/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.02-15.39.32:064][  0]LogInit: Texture streaming: Enabled
+[2020.06.02-15.39.32:260][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.02-15.39.32:273][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={D3FE42BA-4773-ED7A-EAE7-FFA07B7F623F}
+[2020.06.02-15.39.32:274][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.02-15.39.32:275][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.02-15.39.32:497][  0]LogInit: Transaction tracking system initialized
+[2020.06.02-15.39.32:812][  0]BlueprintLog: New page: Editor Load
+[2020.06.02-15.39.33:801][  0]LocalizationService: Localization service is disabled
+[2020.06.02-15.39.36:626][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/' took 0.03s
+[2020.06.02-15.39.36:626][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.02-15.39.36:626][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.02-15.39.39:348][  0]SourceControl: Source control is disabled
+[2020.06.02-15.39.39:400][  0]Cmd: MAP LOAD FILE="../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.02-15.39.39:488][  0]LightingResults: New page: Lighting Build
+[2020.06.02-15.39.39:619][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.02-15.39.39:641][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.02-15.39.39:649][  0]MapCheck: New page: Map Check
+[2020.06.02-15.39.39:649][  0]LightingResults: New page: Lighting Build
+[2020.06.02-15.39.39:887][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.06.02-15.39.41:098][  0]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.06.02-15.39.41:519][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.02-15.39.41:600][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.06.02-15.39.41:600][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.02-15.39.41:608][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 7.163ms to complete.
+[2020.06.02-15.39.41:608][  0]LogFileHelpers: Loading map 'HandheldARBlankMap' took 2.234
+[2020.06.02-15.39.45:221][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-15.39.45:230][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-15.39.45:236][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-15.39.45:241][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-15.39.45:348][  0]LogCollectionManager: Loaded 0 collections in 0.001020 seconds
+[2020.06.02-15.39.45:454][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/Collections/' took 0.00s
+[2020.06.02-15.39.45:454][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/Developers/jagat/Collections/' took 0.00s
+[2020.06.02-15.39.45:454][  0]LogFileCache: Scanning file cache for directory 'D:/GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/Collections/' took 0.00s
+[2020.06.02-15.39.45:454][  0]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 3114 classes and 763 folders.
+[2020.06.02-15.39.45:492][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.02-15.39.46:223][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.02-15.39.46:317][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.06.02-15.39.46:785][  0]LogSlate: Took 0.023866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.02-15.39.46:841][  0]LogSlate: Took 0.036481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.02-15.39.46:877][  0]LogSlate: Took 0.020445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.02-15.39.47:317][  0]LogRenderer: Reallocating scene render targets to support 1256x608 Format 10 NumSamples 1 (Frame:1).
+[2020.06.02-15.39.47:468][  0]LogSlate: Took 0.016592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.02-15.39.47:743][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.02-15.39.47:744][  0]LogLoad: (Engine Initialization) Total time: 87.19 seconds
+[2020.06.02-15.39.47:744][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.02-15.39.48:081][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.02-15.39.50:677][ 35]LogAssetRegistry: Asset discovery search completed in 49.9478 seconds
+[2020.06.02-15.39.50:681][ 35]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2020.06.02-15.39.51:203][ 61]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.02-15.41.25:334][663]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint40)
+[2020.06.02-15.41.27:136][740]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
