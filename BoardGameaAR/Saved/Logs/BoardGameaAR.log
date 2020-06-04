@@ -13623,3 +13623,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.04-04.46.27:287][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.06.04-04.46.27:291][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
 [2020.06.04-04.46.27:437][710]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.06.04-04.46.49:100][848]BlueprintLog: New page: Compile BP_AI_Player
+[2020.06.04-04.46.49:356][848]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.06.04-04.46.50:649][918]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/BP_AI_PlayerBFBD72E640B224D802D59EAD47ADA846.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.uasset'
+[2020.06.04-04.46.50:665][918]AssetCheck: New page: Asset Save: BP_AI_Player
+[2020.06.04-04.46.50:665][918]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player
+[2020.06.04-04.46.51:825][985]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.06.04-04.46.52:069][985]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMap4B801CE8468F223B8B6A3C8B5583E6D3.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.06.04-04.46.52:122][985]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Saved/HandheldARBlankMap_BuiltData570298814B0109F5148DE0A84D08A7F1.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGame/AR-BoardGameUnreal/BoardGameaAR/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.06.04-04.46.52:140][985]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.04-04.46.52:141][985]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap
+[2020.06.04-04.46.52:141][985]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.HandheldARBlankMap_BuiltData
