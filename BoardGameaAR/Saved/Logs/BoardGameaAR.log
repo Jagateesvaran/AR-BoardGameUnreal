@@ -12036,3 +12036,1652 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.04-18.03.03:316][488]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.04-18.03.03:316][488]LogContentValidation: Display: Validating World /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap
 [2020.06.04-18.03.03:316][488]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.HandheldARBlankMap_BuiltData
+[2020.06.04-18.03.46:162][936]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-18.03.46:162][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.04.22:987][133]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.04-18.04.23:006][133]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.04.23:006][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.04-18.04.23:006][133]PIE: New page: PIE session: HandheldARBlankMap (5 Jun 2020, 10:04:23 am)
+[2020.06.04-18.04.23:006][133]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.04.23:015][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008789s)
+[2020.06.04-18.04.23:016][133]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.06.04-18.04.23:016][133]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2020.06.04-18.04.23:016][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.009650s)
+[2020.06.04-18.04.23:048][133]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.04-18.04.23:051][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.04-18.04.23:051][133]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.04-18.04.23:051][133]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Is Default: Yes
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: Channel Order:
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.04-18.04.23:077][133]LogAudioMixer: Display: 1: FrontRight
+[2020.06.04-18.04.23:086][133]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.06.04-18.04.23:087][133]LogInit: FAudioDevice initialized.
+[2020.06.04-18.04.23:091][133]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.06.04-18.04.23:093][133]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.05-02.04.23
+[2020.06.04-18.04.23:093][133]LogWorld: Bringing up level for play took: 0.001442
+[2020.06.04-18.04.23:094][133]LogOnline: OSS: Creating online subsystem instance for: :Context_92
+[2020.06.04-18.04.23:098][133]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.06.04-18.04.23:098][133]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.051
+[2020.06.04-18.04.23:099][133]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.04.23:099][133]LogBlueprintUserMessages: [Dice_2] 100
+[2020.06.04-18.04.25:070][251]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.04.25:070][251]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.04.25:070][251]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.04.25:622][284]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.04.26:442][333]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.04.26:611][343]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.04.26:779][353]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.04.27:029][368]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.04.31:082][610]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.04.31:082][610]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.04.35:149][854]LogBlueprintUserMessages: [Game_Widget_C_0] Change Path to 1
+[2020.06.04-18.04.37:600][  1]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.04.38:134][ 33]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.04.38:152][ 34]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.04.38:953][ 82]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.04.39:418][110]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.04.43:597][360]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.04.43:597][360]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.04.43:997][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board)
+[2020.06.04-18.04.45:451][467]LogEditorViewport: Clicking Background
+[2020.06.04-18.04.47:763][604]LogBlueprintUserMessages: [Game_Widget_C_0] Change Path to 1
+[2020.06.04-18.04.49:198][690]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.04.49:198][690]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.04.49:766][724]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.04.49:766][724]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.04.50:066][742]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.04.50:767][784]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.04.50:784][785]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.04.51:233][812]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.04.51:452][825]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.04.55:193][ 49]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.04.55:193][ 49]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.05.01:948][452]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.05.01:948][452]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.05.02:498][485]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.05.02:532][487]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.05.03:350][535]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.05.03:367][536]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.05.03:718][557]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.05.03:806][562]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.05.07:971][811]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.05.07:971][811]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.05.15:563][265]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.05.15:563][265]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.05.16:130][299]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.05.16:130][299]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.05.16:948][348]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.05.16:964][349]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.05.17:347][372]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.05.17:430][377]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.05.21:561][624]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.05.21:561][624]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.05.37:198][560]LogEditorViewport: Clicking Background
+[2020.06.04-18.05.37:667][588]LogEditorViewport: Clicking Background
+[2020.06.04-18.05.38:100][614]LogEditorViewport: Clicking Background
+[2020.06.04-18.05.38:585][643]LogEditorViewport: Clicking Background
+[2020.06.04-18.05.43:882][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.05.43:882][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.05.43:882][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.05.43:883][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.05.43:883][959]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.05.43:883][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.05.43:883][959]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-18.05.43:884][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.05.43:888][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.04-18.05.43:889][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.05.43:894][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.05.43:922][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.05.43:926][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.05.43:930][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.06.04-18.05.44:104][966]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2020.06.04-18.06.00:402][931]BlueprintLog: New page: Compile Game_Widget
+[2020.06.04-18.06.00:473][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.06.04-18.06.02:502][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.04-18.06.02:520][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.06.02:520][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.04-18.06.02:520][ 44]PIE: New page: PIE session: HandheldARBlankMap (5 Jun 2020, 10:06:02 am)
+[2020.06.04-18.06.02:520][ 44]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.06.02:529][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008780s)
+[2020.06.04-18.06.02:529][ 44]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.06.04-18.06.02:530][ 44]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2020.06.04-18.06.02:530][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.009682s)
+[2020.06.04-18.06.02:562][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.04-18.06.02:562][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.04-18.06.02:562][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.04-18.06.02:563][ 44]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.04-18.06.02:563][ 44]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Is Default: Yes
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: Channel Order:
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.04-18.06.02:588][ 44]LogAudioMixer: Display: 1: FrontRight
+[2020.06.04-18.06.02:599][ 44]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.06.04-18.06.02:600][ 44]LogInit: FAudioDevice initialized.
+[2020.06.04-18.06.02:608][ 44]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.06.04-18.06.02:610][ 44]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.05-02.06.02
+[2020.06.04-18.06.02:610][ 44]LogWorld: Bringing up level for play took: 0.001490
+[2020.06.04-18.06.02:611][ 44]LogOnline: OSS: Creating online subsystem instance for: :Context_93
+[2020.06.04-18.06.02:615][ 44]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.06.04-18.06.02:616][ 44]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.534
+[2020.06.04-18.06.02:616][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.06.02:616][ 44]LogBlueprintUserMessages: [Dice_2] 100
+[2020.06.04-18.06.05:394][210]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.05:394][210]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.05:946][243]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.05:962][244]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.06:783][293]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.06:799][294]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.06:882][299]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.07:033][308]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.07:172][316]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.07:187][317]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.07:290][323]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.07:337][326]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.07:337][326]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.07:470][334]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.07:687][347]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.11:400][569]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.06.11:400][569]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.06.20:663][124]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.20:664][124]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.20:664][124]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.20:664][124]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.20:664][124]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.20:664][124]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.20:781][131]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.21:514][175]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.22:248][219]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.22:331][224]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.22:432][230]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.06.22:448][231]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.22:464][232]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.22:464][232]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.06.22:480][233]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.22:547][237]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.22:631][242]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.22:714][247]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.06.22:780][251]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.06.23:001][264]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.23:117][271]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.23:199][276]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.06.23:782][311]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.26:670][483]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.06.26:670][483]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.06.49:233][830]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.06.49:233][830]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.06.49:766][862]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.49:816][865]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.06.50:400][900]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.50:633][914]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.50:650][915]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.06.50:667][916]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.06.55:218][189]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.06.55:218][189]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.10.23:320][655]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.10.23:320][655]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.10.23:320][655]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.10.23:320][655]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.10.23:320][655]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.10.23:704][678]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.10.23:871][688]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.10.24:021][697]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.10.24:187][707]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.10.24:971][754]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.10.25:072][760]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.10.25:320][775]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.10.25:405][780]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.10.25:573][790]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.10.29:312][ 14]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.10.29:312][ 14]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.11.57:525][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board)
+[2020.06.04-18.11.58:138][770]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.11.58:138][770]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.11.58:138][770]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.11.58:689][803]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.11.58:722][805]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.11.59:006][822]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.11.59:139][830]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.11.59:340][842]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.11.59:506][852]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.11.59:673][862]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.11.59:706][864]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.00:206][894]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.00:222][895]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.00:539][914]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.01:208][954]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.04:128][129]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.12.04:128][129]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.12.11:588][576]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.11:588][576]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.11:589][576]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.11:926][596]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.12:144][609]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.13:044][663]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.13:113][667]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.13:181][671]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.13:229][674]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.13:564][694]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.13:598][696]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.13:631][698]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.13:800][708]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.13:949][717]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.17:586][935]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.12.17:586][935]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.12.24:309][337]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.24:309][337]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.24:309][337]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.24:394][342]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.24:862][370]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.24:879][371]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.24:979][377]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.25:229][392]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.25:879][431]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.25:879][431]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.26:263][454]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.26:263][454]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.26:346][459]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.26:579][473]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.26:646][477]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.26:747][483]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.26:915][493]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.26:947][495]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.30:303][696]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.12.30:303][696]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.12.38:382][179]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.38:382][179]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.38:634][194]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.38:916][211]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.39:818][265]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.40:284][293]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.40:451][303]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.40:617][313]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.44:397][538]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.12.44:397][538]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.12.51:928][988]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.51:928][988]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.51:928][988]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.52:246][  7]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.52:496][ 22]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.12.52:763][ 38]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.53:080][ 57]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.53:247][ 67]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.53:297][ 70]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.12.53:313][ 71]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.53:313][ 71]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.12.53:730][ 96]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.12.53:779][ 99]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.12.54:196][124]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.12.57:913][347]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.12.57:913][347]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.13.07:477][920]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.07:477][920]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.08:028][953]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.08:179][962]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.08:695][993]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.08:879][  4]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.08:947][  8]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.08:947][  8]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.08:963][  9]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.08:980][ 10]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.08:996][ 11]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.09:046][ 14]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.09:063][ 15]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.09:097][ 17]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.09:115][ 18]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.09:181][ 22]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.09:181][ 22]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.09:467][ 39]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.09:500][ 41]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.09:500][ 41]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.12:082][195]LogEditorViewport: Clicking Background
+[2020.06.04-18.13.13:491][279]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.13.13:491][279]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.13.20:536][700]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.20:536][700]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.21:070][732]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.13.22:070][792]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.22:120][795]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.22:186][799]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.22:270][804]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.22:520][819]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.13.22:703][830]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.22:719][831]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.13.22:870][840]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.26:524][ 59]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.13.26:524][ 59]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.13.30:524][299]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.30:524][299]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.30:524][299]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.30:524][299]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.31:008][328]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.31:076][332]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.13.32:010][388]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.32:494][417]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.32:527][419]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.36:517][658]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.13.36:518][658]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.13.47:890][337]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.47:890][337]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.47:890][337]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.48:174][354]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.48:468][370]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.49:217][415]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.49:284][419]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.13.49:334][422]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.13.49:350][423]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.13.49:453][429]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.49:686][443]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.13.49:753][447]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.13.49:970][460]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.13.53:932][696]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.13.53:932][696]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.14.01:955][176]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.14.01:955][176]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.14.01:955][176]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.14.02:523][210]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.02:523][210]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.03:322][258]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.14.03:356][260]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.03:888][292]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.14.03:905][293]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.14.03:938][295]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.14.03:938][295]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.04:171][309]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.04:222][312]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.14.07:948][535]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.14.07:948][535]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.14.09:169][608]LogEditorViewport: Clicking Background
+[2020.06.04-18.14.10:768][703]LogEditorViewport: Clicking Background
+[2020.06.04-18.14.12:764][821]LogEditorViewport: Clicking Background
+[2020.06.04-18.14.20:130][256]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.14.20:130][256]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.20:131][256]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.20:515][279]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.14.20:664][288]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.14.20:832][298]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.14.21:275][324]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.14.21:425][333]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.21:676][348]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.14.21:691][349]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.21:727][351]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.14.21:727][351]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.22:044][370]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.14.22:376][390]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.26:177][618]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.14.26:177][618]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property CallFunc_Array_Get_Item_5, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.26:177][618]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.14.26:177][618]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Assign
+[2020.06.04-18.14.26:177][618]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.14.26:177][618]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.14.26:177][618]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.14.27:193][679]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.14.27:194][679]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.14.27:194][679]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.14.28:211][740]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.14.28:211][740]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.14.28:211][740]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.14.29:228][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.14.29:228][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Set CurrenPlayerPosition
+[2020.06.04-18.14.29:228][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Set CurrenPlayerPosition
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Set CurrenPlayerPosition
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Branch
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:229][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:230][801]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_AI_Player2_2 via property PlayerAIRef, but BP_AI_Player2_2 is pending kill". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.14.29:345][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.14.29:345][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.14.29:345][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.14.29:347][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.14.29:347][808]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.14.29:347][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.14.29:347][808]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-18.14.29:347][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.14.29:351][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.04-18.14.29:351][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.14.29:356][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.14.29:383][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.14.29:386][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.14.29:391][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.06.04-18.14.29:563][815]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2020.06.04-18.14.42:974][604]BlueprintLog: New page: Compile Game_Widget
+[2020.06.04-18.14.43:045][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.06.04-18.14.46:846][825]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.04-18.14.46:863][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.14.46:863][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.04-18.14.46:864][825]PIE: New page: PIE session: HandheldARBlankMap (5 Jun 2020, 10:14:46 am)
+[2020.06.04-18.14.46:864][825]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.14.46:872][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008526s)
+[2020.06.04-18.14.46:873][825]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.06.04-18.14.46:873][825]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2020.06.04-18.14.46:873][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.009445s)
+[2020.06.04-18.14.46:906][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.06.04-18.14.46:906][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.04-18.14.46:906][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.04-18.14.46:907][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.04-18.14.46:907][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.04-18.14.46:907][825]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.04-18.14.46:907][825]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.04-18.14.46:907][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.04-18.14.46:907][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.04-18.14.46:907][825]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.04-18.14.46:907][825]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.04-18.14.46:933][825]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: Is Default: Yes
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: Channel Order:
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.04-18.14.46:934][825]LogAudioMixer: Display: 1: FrontRight
+[2020.06.04-18.14.46:943][825]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.06.04-18.14.46:945][825]LogInit: FAudioDevice initialized.
+[2020.06.04-18.14.46:949][825]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.06.04-18.14.46:951][825]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.05-02.14.46
+[2020.06.04-18.14.46:951][825]LogWorld: Bringing up level for play took: 0.001674
+[2020.06.04-18.14.46:952][825]LogOnline: OSS: Creating online subsystem instance for: :Context_94
+[2020.06.04-18.14.46:956][825]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.06.04-18.14.46:957][825]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.193
+[2020.06.04-18.14.46:957][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.14.46:958][825]LogBlueprintUserMessages: [Dice_2] 100
+[2020.06.04-18.14.51:463][ 95]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.14.51:463][ 95]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.52:030][129]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.14.52:030][129]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.14.52:830][177]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.14.52:881][180]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.53:282][204]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.53:714][230]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.14.57:459][454]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.14.57:459][454]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.15.04:943][902]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.04:944][902]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.05:494][935]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.05:528][937]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.05:644][944]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.06:463][993]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.06:463][993]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.06:602][  1]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.06:652][  4]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.06:735][  9]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.06:859][ 16]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.06:927][ 20]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.06:961][ 22]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.06:977][ 23]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.07:010][ 25]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.07:078][ 29]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.07:094][ 30]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.07:227][ 38]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.07:387][ 46]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.08:630][120]LogEditorViewport: Clicking Background
+[2020.06.04-18.15.08:638][120]LogEditorViewport: Clicking Background
+[2020.06.04-18.15.10:994][261]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.15.10:994][261]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.15.14:511][472]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.14:511][472]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.14:511][472]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.14:511][472]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.14:580][476]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.14:982][500]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.15:004][501]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.15:071][505]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.15:871][553]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.15:871][553]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.16:321][580]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.15.16:555][594]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.16:887][614]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.20:512][831]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.15.20:513][831]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.15.27:814][267]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.28:363][300]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.28:397][302]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.29:300][356]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.15.29:464][366]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.29:665][378]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.29:715][381]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.33:800][626]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.15.33:800][626]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.15.41:776][104]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.41:776][104]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.42:333][137]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.42:366][139]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.42:716][160]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.42:783][164]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.43:432][203]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.43:468][205]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.43:949][234]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.44:183][248]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.47:767][463]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.15.47:767][463]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.15.54:675][877]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.54:675][877]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.54:675][877]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.55:227][910]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.55:259][912]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.56:112][963]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.56:146][965]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.15.56:179][967]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.56:196][968]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.56:196][968]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.15.56:646][995]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.15.56:663][996]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.15.56:763][  2]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.15.56:813][  5]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.16.00:666][236]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.16.00:666][236]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.16.05:486][525]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.16.05:486][525]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.05:486][525]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.06:054][559]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.06:369][578]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.07:221][629]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.07:221][629]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.07:587][651]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.16.07:621][653]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.07:955][673]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.11:517][884]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.16.11:517][884]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.16.21:521][484]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.16.21:521][484]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.16.22:068][516]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.16.22:119][519]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.16.22:518][543]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.22:751][557]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.16.23:070][576]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.23:388][595]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.23:453][599]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.24:070][636]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.16.27:520][843]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.16.27:520][843]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.16.34:437][258]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.16.34:970][290]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.35:870][344]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.36:353][373]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.40:424][617]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.16.40:424][617]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.16.48:094][ 77]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.48:094][ 77]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.16.48:644][110]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.16.48:678][112]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.49:512][162]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.49:512][162]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.50:046][194]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.54:090][436]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.16.54:090][436]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.16.59:279][746]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.16.59:279][746]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.16.59:279][746]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.16.59:813][778]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.16.59:962][787]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.00:063][793]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.00:448][816]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.00:814][838]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.00:864][841]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.00:897][843]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.01:113][856]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.01:147][858]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.01:180][860]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.01:196][861]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.01:813][898]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.05:264][105]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.17.05:264][105]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.17.09:457][356]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.09:457][356]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.09:457][356]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.09:992][387]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.10:260][403]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.10:693][429]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.11:126][455]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.11:160][457]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.11:378][470]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.11:561][481]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.11:893][501]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.15:460][715]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.17.15:460][715]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.17.20:563][ 20]LogBlueprintUserMessages: [Game_Widget_C_0] Change Path to 2
+[2020.06.04-18.17.23:480][195]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.23:480][195]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.23:480][195]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.23:480][195]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.24:014][227]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.24:030][228]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.24:614][263]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.24:997][286]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.25:031][288]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.25:330][306]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.25:430][312]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.25:447][313]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.25:497][316]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.25:881][339]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.29:464][554]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.17.29:464][554]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.17.37:154][ 13]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.37:323][ 23]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.37:691][ 45]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.37:891][ 57]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.38:675][104]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.38:693][105]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.38:725][107]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.17.38:725][107]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.39:041][126]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.43:259][379]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.17.43:259][379]LogBlueprintUserMessages: [Game_Widget_C_0] PathThree
+[2020.06.04-18.17.49:902][776]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.49:902][776]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.50:460][809]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.50:493][811]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.50:609][818]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.51:432][867]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.51:482][870]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.51:515][872]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.51:548][874]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.51:565][875]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.17.51:598][877]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.51:755][886]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.51:824][890]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.17.51:839][891]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.17.51:973][899]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.17.52:206][913]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.17.55:909][135]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.17.55:909][135]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.18.00:759][426]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.18.02:106][506]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.18.02:106][506]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.02:107][506]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.02:256][515]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.18.02:674][540]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.18.02:707][542]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.03:126][567]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.18.03:191][571]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.18.03:359][581]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.03:660][599]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.03:893][613]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.04:009][620]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.18.04:077][624]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.18.04:176][630]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.18.04:193][631]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.08:098][865]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.18.08:098][865]LogBlueprintUserMessages: [Game_Widget_C_0] PathThree
+[2020.06.04-18.18.14:579][252]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.14:579][252]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.14:579][252]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.14:579][252]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.14:596][253]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.18.14:596][253]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.18.15:215][290]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.18.15:364][299]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.15:580][312]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.15:747][322]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.18.15:814][326]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.18.15:831][327]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.18.15:850][328]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.18.15:864][329]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.18.16:164][347]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.18.20:540][609]LogBlueprintUserMessages: [Game_Widget_C_0] 
+[2020.06.04-18.18.20:574][611]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.18.20:574][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_5". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  Switch on Int
+[2020.06.04-18.18.20:574][611]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.18.20:574][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Assign
+[2020.06.04-18.18.20:574][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.20:574][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.20:575][611]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.21:591][672]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.21:592][672]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.21:592][672]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.22:523][728]LogBlueprintUserMessages: [Game_Widget_C_0] 
+[2020.06.04-18.18.22:608][733]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.22:609][733]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.22:609][733]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.23:630][794]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.23:630][794]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.23:630][794]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.24:701][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.24:701][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.24:701][855]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.25:724][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.25:724][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.25:724][916]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.26:746][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  ForLoopDelay Node:  Branch
+[2020.06.04-18.18.26:746][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PlayerAIRef". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.26:746][977]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Game_Widget Function:  Execute Ubergraph Game Widget Graph:  EventGraph Node:  AI MoveTo
+[2020.06.04-18.18.27:281][  9]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.18.27:281][  9]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.18.27:281][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.18.27:282][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.18.27:282][  9]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.18.27:283][  9]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.18.27:283][  9]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-18.18.27:284][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.18.27:292][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.04-18.18.27:292][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.18.27:297][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.18.27:325][  9]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.18.27:328][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.18.27:332][  9]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.06.04-18.18.27:500][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2020.06.04-18.20.13:098][240]BlueprintLog: New page: Compile Game_Widget
+[2020.06.04-18.20.13:171][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.06.04-18.20.14:104][281]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGameV2/BoardGameaAR/Saved/Game_Widget60F3646D487A6A8A924825A00FC38C9E.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGameV2/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Widget/Game_Widget.uasset'
+[2020.06.04-18.20.14:141][281]AssetCheck: New page: Asset Save: Game_Widget
+[2020.06.04-18.20.14:142][281]LogContentValidation: Display: Validating WidgetBlueprint /Game/HandheldARBP/JagateesStuff/Widget/Game_Widget.Game_Widget
+[2020.06.04-18.20.17:232][463]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.04-18.20.17:250][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.20.17:250][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.04-18.20.17:250][463]PIE: New page: PIE session: HandheldARBlankMap (5 Jun 2020, 10:20:17 am)
+[2020.06.04-18.20.17:250][463]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.20.17:258][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008336s)
+[2020.06.04-18.20.17:258][463]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.06.04-18.20.17:258][463]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2020.06.04-18.20.17:258][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.009226s)
+[2020.06.04-18.20.17:288][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.04-18.20.17:289][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.04-18.20.17:289][463]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.04-18.20.17:289][463]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.04-18.20.17:314][463]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: Is Default: Yes
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: Channel Order:
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.04-18.20.17:315][463]LogAudioMixer: Display: 1: FrontRight
+[2020.06.04-18.20.17:324][463]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.06.04-18.20.17:326][463]LogInit: FAudioDevice initialized.
+[2020.06.04-18.20.17:342][463]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.06.04-18.20.17:346][463]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.05-02.20.17
+[2020.06.04-18.20.17:347][463]LogWorld: Bringing up level for play took: 0.003030
+[2020.06.04-18.20.17:348][463]LogOnline: OSS: Creating online subsystem instance for: :Context_95
+[2020.06.04-18.20.17:355][463]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.06.04-18.20.17:356][463]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.206
+[2020.06.04-18.20.17:356][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.20.17:357][463]LogBlueprintUserMessages: [Dice_2] 100
+[2020.06.04-18.20.18:929][557]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.20.18:929][557]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.20.19:498][591]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.20.19:498][591]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.20:401][645]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.20:401][645]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.20:418][646]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.20:418][646]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.20.20:468][649]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.20:701][663]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.20:868][673]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.21:469][709]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.24:920][916]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.20.24:921][916]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.20.34:080][465]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.34:081][465]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.20.34:632][498]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.34:815][509]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.20.35:533][552]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.35:632][558]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.20.35:699][562]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.20.35:699][562]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.20.35:800][568]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.20.35:815][569]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.35:898][574]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.20.36:033][582]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.36:150][589]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.20.36:317][599]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.20.40:072][824]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.20.40:072][824]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.20.47:072][244]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.20.47:072][244]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.20.47:072][244]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.20.47:622][277]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.20.47:655][279]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.48:538][332]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.20.48:538][332]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.20.48:538][332]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.20.48:789][347]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.20.48:955][357]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.20.53:056][603]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.20.53:056][603]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.21.06:345][322]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.06:345][322]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.06:346][322]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.06:902][355]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.07:069][365]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.07:354][382]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.07:503][391]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.07:720][404]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.07:785][408]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.07:785][408]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.07:886][414]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.08:003][421]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.08:087][426]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.08:153][430]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.12:339][681]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.21.12:339][681]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.21.14:372][803]LogBlueprintUserMessages: [Game_Widget_C_0] Change Path to 1
+[2020.06.04-18.21.15:272][857]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.15:272][857]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.15:272][857]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.15:822][890]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.15:839][891]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.15:839][891]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.15:855][892]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.16:139][909]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.16:239][915]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.16:722][944]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.16:739][945]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.16:755][946]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.16:788][948]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.17:073][965]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.17:322][980]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.17:389][984]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.17:506][991]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.21:255][216]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.21.21:256][216]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.21.26:809][549]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.26:809][549]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.26:809][549]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.26:959][558]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.27:361][582]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.27:393][584]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.27:426][586]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.28:389][643]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.28:521][651]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.28:854][671]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.28:871][672]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.28:937][676]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.29:171][690]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.32:804][908]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.21.32:804][908]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.21.41:089][405]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.41:089][405]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.41:630][437]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.42:598][495]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.42:614][496]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.43:047][522]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.43:148][528]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.43:249][534]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.43:364][541]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.43:464][547]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.21.47:090][764]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.21.47:090][764]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.21.52:606][ 95]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.21.52:606][ 95]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.52:606][ 95]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.21.52:606][ 95]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.52:607][ 95]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.53:623][156]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.21.53:639][157]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.54:156][188]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.21.54:473][207]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.21.58:590][454]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.21.58:590][454]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.22.06:409][921]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.06:409][921]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.06:960][954]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.07:110][963]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.07:927][ 12]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.08:144][ 25]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.08:144][ 25]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.08:177][ 27]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.08:177][ 27]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.08:194][ 28]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.08:229][ 30]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.08:329][ 36]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.08:764][ 62]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.12:399][280]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.22.12:399][280]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.22.17:523][587]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.17:523][587]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.17:523][587]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.17:840][606]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.18:074][620]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.18:274][632]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.18:274][632]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.18:324][635]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.18:557][649]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.18:607][652]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.18:790][663]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.19:074][680]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.19:091][681]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.19:324][695]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.19:491][705]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.19:742][720]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.19:790][723]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.19:807][724]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.23:511][946]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.22.23:511][946]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.22.30:729][379]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.30:729][379]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.30:729][379]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.30:779][382]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.31:262][411]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.31:313][414]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.32:297][473]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.32:463][483]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.32:596][491]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.32:880][508]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.32:966][513]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.33:080][520]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.33:080][520]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.33:164][525]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.36:760][738]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.22.36:760][738]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.22.44:516][203]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.22.44:516][203]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.44:533][204]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.45:067][236]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.46:067][296]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.46:100][298]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.46:233][306]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.46:417][317]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.46:467][320]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.22.46:533][324]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.46:551][325]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.22.46:584][327]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.46:783][339]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.22.46:850][343]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.22.46:901][346]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.22.50:503][562]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.22.50:503][562]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.23.02:641][290]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.02:641][290]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.02:641][290]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.02:891][305]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.03:190][323]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.04:241][386]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.04:341][392]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.04:357][393]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.04:591][407]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.04:674][412]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.04:708][414]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.04:724][415]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.04:757][417]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.04:791][419]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.04:809][420]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.08:672][649]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.23.08:672][649]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.23.15:834][ 78]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.15:834][ 78]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.15:834][ 78]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.15:834][ 78]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.16:267][104]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.16:434][114]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.16:468][116]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.17:317][167]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.17:367][170]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.17:567][182]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.17:667][188]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.17:734][192]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.17:884][201]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.18:167][218]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.21:818][437]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.23.21:818][437]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.23.29:267][884]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.29:267][884]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.29:267][884]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.29:818][917]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.29:851][919]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.29:985][927]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.30:869][980]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.30:952][985]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.31:001][988]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.31:068][992]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.31:235][  2]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.35:252][243]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.23.35:253][243]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.23.41:100][593]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.41:100][593]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.41:100][593]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.41:184][598]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.41:684][628]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.42:500][677]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.42:500][677]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.42:967][705]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.43:183][718]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.47:087][952]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.23.47:087][952]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.23.55:379][449]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.55:379][449]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.55:379][449]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.23.55:929][482]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.56:413][511]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.23.56:496][516]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.57:063][550]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.57:330][566]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.57:446][573]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.23.57:730][590]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.23.57:798][594]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.23.57:880][599]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.23.57:930][602]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.01:364][808]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.24.01:364][808]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.24.06:021][ 87]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.06:021][ 87]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.06:021][ 87]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.06:021][ 87]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.06:021][ 87]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.06:056][ 89]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.06:589][121]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.07:005][146]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.07:458][172]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.07:543][177]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.07:575][179]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.07:609][181]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.07:695][186]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.07:861][196]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.24.07:861][196]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.07:896][198]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.07:999][204]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.08:047][207]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.08:148][213]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.08:480][233]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.24.12:031][446]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.24.12:031][446]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.24.14:067][568]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.15:085][629]LogScript: Warning: Script Msg: Attempted to access index 31 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.16:667][724]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.16:667][724]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.16:667][724]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.16:835][734]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.17:218][757]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.17:434][770]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.18:219][817]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.18:219][817]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.18:501][834]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.18:654][843]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.24.18:718][847]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.18:952][861]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.19:002][864]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.22:652][ 83]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.24.22:653][ 83]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.24.25:705][266]LogScript: Warning: Script Msg: Attempted to access index 37 from array 'WayPointArrayOne' of length 37 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.26:725][327]LogScript: Warning: Script Msg: Attempted to access index 38 from array 'WayPointArrayOne' of length 37 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.27:740][388]LogScript: Warning: Script Msg: Attempted to access index 39 from array 'WayPointArrayOne' of length 37 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.28:758][449]LogScript: Warning: Script Msg: Attempted to access index 40 from array 'WayPointArrayOne' of length 37 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.31:024][585]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.31:024][585]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.31:024][585]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.31:329][603]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.31:559][617]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.24.31:693][625]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.33:030][705]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.33:164][713]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.37:059][946]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.24.37:059][946]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.24.37:059][946]LogScript: Warning: Script Msg: Attempted to access index 31 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.38:088][  7]LogScript: Warning: Script Msg: Attempted to access index 32 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.39:105][ 68]LogScript: Warning: Script Msg: Attempted to access index 33 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.40:122][129]LogScript: Warning: Script Msg: Attempted to access index 34 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.41:149][190]LogScript: Warning: Script Msg: Attempted to access index 35 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.42:164][251]LogScript: Warning: Script Msg: Attempted to access index 36 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.43:182][312]LogScript: Warning: Script Msg: Attempted to access index 37 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.46:043][482]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.46:043][482]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.46:044][482]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.24.46:595][515]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.46:646][518]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.47:079][544]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.47:264][555]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.47:546][572]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.47:563][573]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.47:679][580]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.47:764][585]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.24.47:813][588]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.47:813][588]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.24.47:813][588]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.47:980][598]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.24.47:996][599]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.48:196][611]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.24.48:246][614]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.48:282][616]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.48:282][616]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.48:414][624]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.24.48:599][635]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.24.51:689][820]LogEditorViewport: Clicking Background
+[2020.06.04-18.24.52:038][841]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.24.52:038][841]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.24.52:038][841]LogScript: Warning: Script Msg: Attempted to access index 40 from array 'WayPointArrayOne' of length 37 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.52:106][845]LogEditorViewport: Clicking Background
+[2020.06.04-18.24.53:056][902]LogScript: Warning: Script Msg: Attempted to access index 41 from array 'WayPointArrayOne' of length 37 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.24.53:965][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (board)
+[2020.06.04-18.24.55:946][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.24.55:946][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.24.55:946][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.24.55:946][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.24.55:946][ 73]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.24.55:948][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.24.55:948][ 73]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-18.24.55:948][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.24.55:953][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.04-18.24.55:953][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.24.55:958][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.24.55:986][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.24.55:989][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.24.55:993][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.06.04-18.24.56:142][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2020.06.04-18.25.08:609][816]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.08:854][821]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.09:073][825]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.09:287][830]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.09:522][835]LogEditorTransaction: Undo Add Node
+[2020.06.04-18.25.09:791][843]LogEditorTransaction: Undo Delete current selection
+[2020.06.04-18.25.10:515][879]LogEditorTransaction: Undo Add Node
+[2020.06.04-18.25.10:767][887]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.11:133][902]LogEditorTransaction: Undo Delete current selection
+[2020.06.04-18.25.11:562][920]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.12:766][985]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.12:921][988]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.13:095][991]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.15:167][108]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.15:382][114]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.15:599][120]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.15:776][124]LogEditorTransaction: Undo Add Node
+[2020.06.04-18.25.15:960][128]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.16:156][133]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.16:617][154]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.17:018][171]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.17:305][179]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.17:497][183]LogEditorTransaction: Undo Paste clipboard contents
+[2020.06.04-18.25.17:688][186]LogEditorTransaction: Undo Delete current selection
+[2020.06.04-18.25.17:997][197]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.19:648][288]LogEditorTransaction: Undo Delete current selection
+[2020.06.04-18.25.19:832][291]LogEditorTransaction: Undo Move Node
+[2020.06.04-18.25.19:966][292]LogEditorTransaction: Undo Create Pin Link
+[2020.06.04-18.25.20:151][295]LogEditorTransaction: Undo Add Node
+[2020.06.04-18.25.22:173][409]LogEditorTransaction: Undo Delete current selection
+[2020.06.04-18.25.23:207][464]LogEditorTransaction: Undo Move Nodes
+[2020.06.04-18.25.23:793][491]LogEditorTransaction: Undo Add Node
+[2020.06.04-18.25.25:566][589]BlueprintLog: New page: Compile Game_Widget
+[2020.06.04-18.25.25:638][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.06.04-18.26.00:184][628]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player
+[2020.06.04-18.26.11:562][274]BlueprintLog: New page: Compile BP_AI_Player
+[2020.06.04-18.26.11:818][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.06.04-18.26.26:924][166]BlueprintLog: New page: Compile BP_AI_Player
+[2020.06.04-18.26.27:140][166]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.06.04-18.26.27:529][181]LogSavePackage: Moving '../../../../../../GithubProjects/WorldSkills/BoraedGameV2/BoardGameaAR/Saved/BP_AI_Player9A465FAA47CE8F0F1D2B5E873BE3BC3D.tmp' to '../../../../../../GithubProjects/WorldSkills/BoraedGameV2/BoardGameaAR/Content/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.uasset'
+[2020.06.04-18.26.27:557][181]AssetCheck: New page: Asset Save: BP_AI_Player
+[2020.06.04-18.26.27:557][181]LogContentValidation: Display: Validating Blueprint /Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player
+[2020.06.04-18.27.27:520][711]BlueprintLog: New page: Compile Game_Widget
+[2020.06.04-18.27.27:589][711]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.06.04-18.27.28:545][763]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.04-18.27.28:564][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.27.28:564][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.04-18.27.28:564][763]PIE: New page: PIE session: HandheldARBlankMap (5 Jun 2020, 10:27:28 am)
+[2020.06.04-18.27.28:564][763]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.27.28:573][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008572s)
+[2020.06.04-18.27.28:573][763]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.06.04-18.27.28:574][763]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2020.06.04-18.27.28:574][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.009430s)
+[2020.06.04-18.27.28:607][763]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.04-18.27.28:608][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.04-18.27.28:608][763]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.04-18.27.28:608][763]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Name: Speakers (HyperX Quadcast)
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Is Default: Yes
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: Channel Order:
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.04-18.27.28:634][763]LogAudioMixer: Display: 1: FrontRight
+[2020.06.04-18.27.28:644][763]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Quadcast)
+[2020.06.04-18.27.28:645][763]LogInit: FAudioDevice initialized.
+[2020.06.04-18.27.28:650][763]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.06.04-18.27.28:651][763]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.06.05-02.27.28
+[2020.06.04-18.27.28:652][763]LogWorld: Bringing up level for play took: 0.001449
+[2020.06.04-18.27.28:652][763]LogOnline: OSS: Creating online subsystem instance for: :Context_97
+[2020.06.04-18.27.28:657][763]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.06.04-18.27.28:658][763]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.492
+[2020.06.04-18.27.28:658][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.27.28:659][763]LogBlueprintUserMessages: [Dice_2] 100
+[2020.06.04-18.27.31:582][938]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.31:582][938]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.31:582][938]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.32:150][972]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.32:166][973]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.27.33:008][ 23]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.27.33:040][ 25]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.27.33:072][ 27]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.33:340][ 43]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.37:573][297]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.27.37:573][297]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.27.41:658][541]LogBlueprintUserMessages: [Game_Widget_C_0] Change Path to 1
+[2020.06.04-18.27.48:345][942]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.48:346][942]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.48:847][972]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.48:879][974]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.27.49:030][983]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.27.49:231][995]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.49:362][  3]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.49:532][ 13]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.27.49:697][ 23]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.27.49:880][ 34]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.49:914][ 36]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.27.49:946][ 38]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.27.50:012][ 42]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.50:012][ 42]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.50:179][ 52]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.50:329][ 61]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.50:346][ 62]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.27.50:513][ 72]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.54:329][301]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.27.54:329][301]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.27.58:331][534]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.58:331][534]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.58:331][534]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.27.58:332][534]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.27.58:966][572]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.27.58:966][572]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.59:782][621]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.27.59:867][626]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.27.59:933][630]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.27.59:999][634]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.00:032][636]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.00:332][654]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.00:350][655]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.04:317][893]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.28.04:317][893]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.28.12:287][371]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.12:287][371]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.12:822][403]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.12:988][413]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.13:663][452]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.13:697][454]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.13:779][459]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.13:779][459]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.13:829][462]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.13:963][470]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.13:996][472]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.14:346][493]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.18:902][730]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.28.18:902][730]LogBlueprintUserMessages: [Game_Widget_C_0] pathOne
+[2020.06.04-18.28.22:848][913]LogBlueprintUserMessages: [Game_Widget_C_0] Change Path to 1
+[2020.06.04-18.28.23:804][959]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.23:804][959]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.23:804][959]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.24:372][993]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.24:905][ 25]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.25:172][ 41]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.25:204][ 43]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.25:205][ 43]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.25:372][ 53]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.29:788][318]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.28.29:788][318]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.28.35:323][650]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.35:323][650]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.35:872][683]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.35:906][685]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.36:107][697]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.36:457][718]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.36:757][736]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.36:791][738]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.37:024][752]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.37:257][766]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.41:310][  9]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.28.41:310][  9]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.28.45:682][270]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.45:682][270]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.45:682][270]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.46:216][302]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.46:683][330]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.46:839][339]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.46:889][342]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.47:006][349]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.47:272][365]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.47:356][370]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.47:423][374]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.28.47:439][375]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.47:472][377]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.47:506][379]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.47:622][386]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.47:790][396]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.28.47:790][396]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.47:823][398]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.51:672][629]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.28.51:672][629]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.28.58:839][ 59]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.58:839][ 59]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.58:840][ 59]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.28.58:856][ 60]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.28.59:375][ 91]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.28.59:423][ 94]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.28.59:524][100]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.00:340][149]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.00:357][150]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.00:423][154]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.00:556][162]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.00:723][172]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.00:773][175]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.00:806][177]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.01:007][189]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.29.01:406][213]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.01:490][218]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.04:823][418]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.29.04:823][418]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.29.11:628][826]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.11:629][826]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.11:762][834]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.12:062][852]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.12:162][858]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.12:278][865]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.12:295][866]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.12:379][871]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.12:578][883]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.12:828][898]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.13:195][920]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.13:229][922]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.13:661][948]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.13:779][955]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.13:912][963]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.17:612][185]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.29.17:612][185]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.29.24:398][592]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.24:398][592]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.29.24:398][592]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.24:950][625]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.25:934][684]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.26:434][714]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.26:685][729]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.27:284][765]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.30:390][951]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.29.30:390][951]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.29.37:559][380]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.37:559][380]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.37:560][380]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.38:110][413]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.39:010][467]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.29.39:076][471]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.39:443][493]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.39:510][497]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.29.39:527][498]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.29.39:560][500]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.39:610][503]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.39:793][514]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.39:944][523]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.43:543][739]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.29.43:543][739]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.29.47:248][960]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.29.47:249][960]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.47:249][960]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.48:599][ 41]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.48:883][ 58]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.29.48:916][ 60]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.49:033][ 67]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.49:116][ 72]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.29.49:420][ 90]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.53:237][319]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.29.53:238][319]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.29.59:886][718]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.29.59:886][718]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.29.59:886][718]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.29.59:886][718]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.00:304][743]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.00:439][751]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.00:453][752]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.00:454][752]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.00:571][759]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.00:687][766]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.00:770][771]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.00:887][778]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.01:371][807]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.01:371][807]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.01:921][840]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.01:936][841]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.02:072][849]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.02:154][854]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.05:874][ 77]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.30.05:874][ 77]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.30.11:706][427]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.11:707][427]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.12:259][460]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.12:391][468]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.13:058][508]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.13:174][515]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.13:240][519]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.13:274][521]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.13:341][525]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.13:658][544]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.13:909][559]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.17:691][786]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.30.17:691][786]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.30.22:091][ 33]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.22:092][ 33]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.22:109][ 34]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.22:625][ 65]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.22:642][ 66]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.22:676][ 68]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.23:627][125]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.23:910][142]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.23:959][145]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.24:092][153]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.24:259][163]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.24:510][178]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.28:086][392]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.30.28:086][392]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.30.32:449][636]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.06.04-18.30.36:538][826]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.36:538][826]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.37:072][858]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.37:222][867]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.38:073][918]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.38:073][918]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.38:556][947]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.42:524][185]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.30.42:524][185]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.30.50:548][665]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.50:548][665]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.30.51:099][698]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.51:132][700]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.51:282][709]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.52:066][756]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.30.52:115][759]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.52:182][763]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.52:432][778]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.30.52:516][783]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.30.52:633][790]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.30.52:683][793]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.30.56:533][ 24]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.30.56:533][ 24]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.31.00:600][268]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.31.01:617][329]LogScript: Warning: Script Msg: Attempted to access index 31 from array 'WayPointArrayTwo' of length 30 in '/Game/HandheldARBP/JagateesStuff/Btea/BP_AI_Player.BP_AI_Player_C'!
+[2020.06.04-18.31.03:249][427]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.03:816][461]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.04:033][474]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.04:200][484]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.04:366][494]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.04:532][504]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.04:699][514]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.04:849][523]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.05:433][558]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.31.05:433][558]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.31.05:433][558]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.31.05:433][558]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.31.05:684][573]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.31.06:000][592]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.31.06:000][592]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.31.06:817][641]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.31.06:834][642]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.31.06:900][646]LogBlueprintUserMessages: [Dice_2] 2
+[2020.06.04-18.31.06:917][647]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.31.07:016][653]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.07:050][655]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.31.07:083][657]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.31.07:183][663]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.07:217][665]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.31.07:383][675]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.07:566][686]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.07:716][695]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.07:900][706]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.08:066][716]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.08:232][726]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.08:549][745]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.08:733][756]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.09:117][779]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.09:449][799]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.09:650][811]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.09:833][822]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.10:016][833]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.10:200][844]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.10:383][855]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.10:583][867]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.10:782][879]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.10:999][892]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.11:216][905]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.11:399][916]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.11:416][917]LogBlueprintUserMessages: [Game_Widget_C_0] Player One
+[2020.06.04-18.31.11:416][917]LogBlueprintUserMessages: [Game_Widget_C_0] PathTwo
+[2020.06.04-18.31.11:616][929]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.11:799][940]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.11:983][951]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.12:183][963]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.12:533][984]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.13:217][ 25]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.13:416][ 37]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.13:583][ 47]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.13:766][ 58]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.13:967][ 70]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.14:166][ 82]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.14:350][ 93]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.14:516][103]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.14:683][113]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.14:866][124]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.15:083][137]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.15:316][151]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.15:533][164]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.15:733][176]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.15:983][191]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.16:184][203]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.16:350][213]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.16:550][225]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.16:550][225]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.16:950][249]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.16:950][249]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.17:150][261]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.17:150][261]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.17:350][273]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.17:350][273]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.17:533][284]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.17:533][284]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.17:717][295]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.17:717][295]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.17:883][305]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.17:883][305]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.18:050][315]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.18:050][315]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.18:234][326]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.18:234][326]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.18:400][336]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.18:400][336]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.18:601][348]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.18:601][348]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.18:767][358]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.18:767][358]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.19:235][386]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.19:235][386]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.19:418][397]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.19:418][397]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.19:600][408]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.19:601][408]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.19:768][418]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.19:768][418]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.19:934][428]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.19:934][428]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.21:669][532]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.21:669][532]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.21:934][548]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.21:934][548]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.22:117][559]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.22:118][559]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.22:285][569]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player2
+[2020.06.04-18.31.22:285][569]LogBlueprintUserMessages: [Game_Widget_C_0] BP_AI_Player3
+[2020.06.04-18.31.22:984][611]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.31.22:984][611]LogBlueprintUserMessages: [Dice_2] 4
+[2020.06.04-18.31.22:984][611]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.31.23:552][645]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.31.23:802][660]LogBlueprintUserMessages: [Dice_2] 6
+[2020.06.04-18.31.24:102][678]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.31.24:486][701]LogBlueprintUserMessages: [Dice_2] 5
+[2020.06.04-18.31.24:503][702]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.31.24:869][724]LogBlueprintUserMessages: [Dice_2] 3
+[2020.06.04-18.31.24:969][730]LogBlueprintUserMessages: [Dice_2] 1
+[2020.06.04-18.31.25:830][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.31.25:830][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.31.25:830][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.31.25:830][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.31.25:830][777]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.06.04-18.31.25:830][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.31.25:831][777]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-18.31.25:832][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.31.25:847][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.04-18.31.25:847][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.06.04-18.31.25:853][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-18.31.25:886][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.04-18.31.25:889][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-18.31.25:894][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.06.04-18.31.26:089][784]LogPlayLevel: Display: Destroying online subsystem :Context_97
